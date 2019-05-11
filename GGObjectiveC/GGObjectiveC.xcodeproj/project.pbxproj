@@ -13,6 +13,8 @@
 		25DDB9A022869A2A00A8EB42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DDB99E22869A2A00A8EB42 /* Main.storyboard */; };
 		25DDB9A322869A2A00A8EB42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB9A222869A2A00A8EB42 /* main.m */; };
 		25DDB9AE22869A2B00A8EB42 /* GGObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB9AD22869A2B00A8EB42 /* GGObjectiveCTests.m */; };
+		25DDB9BD2286A0ED00A8EB42 /* GOCBinarySearchSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB9BC2286A0ED00A8EB42 /* GOCBinarySearchSolution.m */; };
+		25DDB9BF2286A2A800A8EB42 /* GOCBinarySearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB9BE2286A2A800A8EB42 /* GOCBinarySearchTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,9 @@
 		25DDB9A922869A2B00A8EB42 /* GGObjectiveCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGObjectiveCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25DDB9AD22869A2B00A8EB42 /* GGObjectiveCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGObjectiveCTests.m; sourceTree = "<group>"; };
 		25DDB9AF22869A2B00A8EB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25DDB9BB2286A0ED00A8EB42 /* GOCBinarySearchSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCBinarySearchSolution.h; sourceTree = "<group>"; };
+		25DDB9BC2286A0ED00A8EB42 /* GOCBinarySearchSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCBinarySearchSolution.m; sourceTree = "<group>"; };
+		25DDB9BE2286A2A800A8EB42 /* GOCBinarySearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCBinarySearchTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +101,37 @@
 		25DDB9AC22869A2B00A8EB42 /* GGObjectiveCTests */ = {
 			isa = PBXGroup;
 			children = (
+				25DDB9B822869FD100A8EB42 /* Problems */,
 				25DDB9AD22869A2B00A8EB42 /* GGObjectiveCTests.m */,
 				25DDB9AF22869A2B00A8EB42 /* Info.plist */,
 			);
 			path = GGObjectiveCTests;
+			sourceTree = "<group>";
+		};
+		25DDB9B822869FD100A8EB42 /* Problems */ = {
+			isa = PBXGroup;
+			children = (
+				25DDB9B92286A00200A8EB42 /* BinarySearch */,
+			);
+			path = Problems;
+			sourceTree = "<group>";
+		};
+		25DDB9B92286A00200A8EB42 /* BinarySearch */ = {
+			isa = PBXGroup;
+			children = (
+				25DDB9BA2286A09200A8EB42 /* binary_search */,
+			);
+			path = BinarySearch;
+			sourceTree = "<group>";
+		};
+		25DDB9BA2286A09200A8EB42 /* binary_search */ = {
+			isa = PBXGroup;
+			children = (
+				25DDB9BB2286A0ED00A8EB42 /* GOCBinarySearchSolution.h */,
+				25DDB9BC2286A0ED00A8EB42 /* GOCBinarySearchSolution.m */,
+				25DDB9BE2286A2A800A8EB42 /* GOCBinarySearchTests.m */,
+			);
+			path = binary_search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +242,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25DDB9BF2286A2A800A8EB42 /* GOCBinarySearchTests.m in Sources */,
 				25DDB9AE22869A2B00A8EB42 /* GGObjectiveCTests.m in Sources */,
+				25DDB9BD2286A0ED00A8EB42 /* GOCBinarySearchSolution.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
