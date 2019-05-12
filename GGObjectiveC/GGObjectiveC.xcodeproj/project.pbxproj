@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		259617722287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617712287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.m */; };
+		259617742287B7C800D6A124 /* GOCFindMinimumInRotatedSortedArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617732287B7C800D6A124 /* GOCFindMinimumInRotatedSortedArrayTests.m */; };
 		25DDB99822869A2600A8EB42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB99722869A2600A8EB42 /* AppDelegate.m */; };
 		25DDB99B22869A2600A8EB42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB99A22869A2600A8EB42 /* ViewController.m */; };
 		25DDB99D22869A2A00A8EB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25DDB99C22869A2A00A8EB42 /* Assets.xcassets */; };
@@ -32,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		259617702287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCFindMinimumInRotatedSortedArraySolution.h; sourceTree = "<group>"; };
+		259617712287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCFindMinimumInRotatedSortedArraySolution.m; sourceTree = "<group>"; };
+		259617732287B7C800D6A124 /* GOCFindMinimumInRotatedSortedArrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCFindMinimumInRotatedSortedArrayTests.m; sourceTree = "<group>"; };
 		25DDB99322869A2600A8EB42 /* GGObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25DDB99622869A2600A8EB42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25DDB99722869A2600A8EB42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -74,6 +79,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2596176F2287B3D700D6A124 /* find_minimum_in_rotated_sorted_array */ = {
+			isa = PBXGroup;
+			children = (
+				259617702287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.h */,
+				259617712287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.m */,
+				259617732287B7C800D6A124 /* GOCFindMinimumInRotatedSortedArrayTests.m */,
+			);
+			path = find_minimum_in_rotated_sorted_array;
+			sourceTree = "<group>";
+		};
 		25DDB98A22869A2500A8EB42 = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +147,7 @@
 				25DDB9BA2286A09200A8EB42 /* binary_search */,
 				25DDB9C12286AF0400A8EB42 /* search_insert_position */,
 				25DDB9C72286D32A00A8EB42 /* first_bad_version */,
+				2596176F2287B3D700D6A124 /* find_minimum_in_rotated_sorted_array */,
 			);
 			path = BinarySearch;
 			sourceTree = "<group>";
@@ -277,10 +293,12 @@
 				25DDB9BF2286A2A800A8EB42 /* GOCBinarySearchTests.m in Sources */,
 				25DDB9C42286AFCA00A8EB42 /* GOCSearchInsertPositionSolution.m in Sources */,
 				25DDB9CA2286D36900A8EB42 /* GOCFirstBadVersionSolution.m in Sources */,
+				259617742287B7C800D6A124 /* GOCFindMinimumInRotatedSortedArrayTests.m in Sources */,
 				25DDB9AE22869A2B00A8EB42 /* GGObjectiveCTests.m in Sources */,
 				25DDB9CC2286D67C00A8EB42 /* GOCFirstBadVersionTests.m in Sources */,
 				25DDB9C62286B69500A8EB42 /* GOCSearchInsertPositionTests.m in Sources */,
 				25DDB9BD2286A0ED00A8EB42 /* GOCBinarySearchSolution.m in Sources */,
+				259617722287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
