@@ -13,6 +13,8 @@
 		2596177A2287C1D500D6A124 /* GOCSearchInRotatedSortedArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617792287C1D500D6A124 /* GOCSearchInRotatedSortedArrayTests.m */; };
 		2596177E2287C88100D6A124 /* GOCFindPeakElementSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2596177D2287C88100D6A124 /* GOCFindPeakElementSolution.m */; };
 		259617802287D13900D6A124 /* GOCFindPeakElementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2596177F2287D13900D6A124 /* GOCFindPeakElementTests.m */; };
+		259617842287E48300D6A124 /* GOCMedianOfTwoSortedArraysSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617832287E48300D6A124 /* GOCMedianOfTwoSortedArraysSolution.m */; };
+		259617862287EE4000D6A124 /* GOCMedianOfTwoSortedArraysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617852287EE4000D6A124 /* GOCMedianOfTwoSortedArraysTests.m */; };
 		25DDB99822869A2600A8EB42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB99722869A2600A8EB42 /* AppDelegate.m */; };
 		25DDB99B22869A2600A8EB42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB99A22869A2600A8EB42 /* ViewController.m */; };
 		25DDB99D22869A2A00A8EB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25DDB99C22869A2A00A8EB42 /* Assets.xcassets */; };
@@ -47,6 +49,9 @@
 		2596177C2287C88100D6A124 /* GOCFindPeakElementSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCFindPeakElementSolution.h; sourceTree = "<group>"; };
 		2596177D2287C88100D6A124 /* GOCFindPeakElementSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCFindPeakElementSolution.m; sourceTree = "<group>"; };
 		2596177F2287D13900D6A124 /* GOCFindPeakElementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCFindPeakElementTests.m; sourceTree = "<group>"; };
+		259617822287E48300D6A124 /* GOCMedianOfTwoSortedArraysSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCMedianOfTwoSortedArraysSolution.h; sourceTree = "<group>"; };
+		259617832287E48300D6A124 /* GOCMedianOfTwoSortedArraysSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCMedianOfTwoSortedArraysSolution.m; sourceTree = "<group>"; };
+		259617852287EE4000D6A124 /* GOCMedianOfTwoSortedArraysTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCMedianOfTwoSortedArraysTests.m; sourceTree = "<group>"; };
 		25DDB99322869A2600A8EB42 /* GGObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25DDB99622869A2600A8EB42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25DDB99722869A2600A8EB42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -119,6 +124,16 @@
 			path = find_peak_element;
 			sourceTree = "<group>";
 		};
+		259617812287E35B00D6A124 /* median_of_two_sorted_arrays */ = {
+			isa = PBXGroup;
+			children = (
+				259617822287E48300D6A124 /* GOCMedianOfTwoSortedArraysSolution.h */,
+				259617832287E48300D6A124 /* GOCMedianOfTwoSortedArraysSolution.m */,
+				259617852287EE4000D6A124 /* GOCMedianOfTwoSortedArraysTests.m */,
+			);
+			path = median_of_two_sorted_arrays;
+			sourceTree = "<group>";
+		};
 		25DDB98A22869A2500A8EB42 = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +195,7 @@
 				2596176F2287B3D700D6A124 /* find_minimum_in_rotated_sorted_array */,
 				259617752287BBEC00D6A124 /* search_in_rotated_sorted_array */,
 				2596177B2287C65C00D6A124 /* find_peak_element */,
+				259617812287E35B00D6A124 /* median_of_two_sorted_arrays */,
 			);
 			path = BinarySearch;
 			sourceTree = "<group>";
@@ -331,8 +347,10 @@
 				25DDB9AE22869A2B00A8EB42 /* GGObjectiveCTests.m in Sources */,
 				25DDB9CC2286D67C00A8EB42 /* GOCFirstBadVersionTests.m in Sources */,
 				2596177A2287C1D500D6A124 /* GOCSearchInRotatedSortedArrayTests.m in Sources */,
+				259617862287EE4000D6A124 /* GOCMedianOfTwoSortedArraysTests.m in Sources */,
 				259617802287D13900D6A124 /* GOCFindPeakElementTests.m in Sources */,
 				25DDB9C62286B69500A8EB42 /* GOCSearchInsertPositionTests.m in Sources */,
+				259617842287E48300D6A124 /* GOCMedianOfTwoSortedArraysSolution.m in Sources */,
 				25DDB9BD2286A0ED00A8EB42 /* GOCBinarySearchSolution.m in Sources */,
 				259617722287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.m in Sources */,
 			);
