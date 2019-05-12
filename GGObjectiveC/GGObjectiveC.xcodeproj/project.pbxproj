@@ -26,6 +26,8 @@
 		259617A3228815BA00D6A124 /* GOCReverseLinkedListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617A2228815BA00D6A124 /* GOCReverseLinkedListTests.m */; };
 		259617A72288173E00D6A124 /* GOCMergeTwoSortedListsSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617A62288173E00D6A124 /* GOCMergeTwoSortedListsSolution.m */; };
 		259617A922881A2900D6A124 /* GOCMergeTwoSortedListsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617A822881A2900D6A124 /* GOCMergeTwoSortedListsTests.m */; };
+		259617AD22881CC600D6A124 /* GOCMiddleOfTheLinkedListSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617AC22881CC600D6A124 /* GOCMiddleOfTheLinkedListSolution.m */; };
+		259617AF22881E6F00D6A124 /* GOCMiddleOfTheLinkedListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617AE22881E6F00D6A124 /* GOCMiddleOfTheLinkedListTests.m */; };
 		25DDB99822869A2600A8EB42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB99722869A2600A8EB42 /* AppDelegate.m */; };
 		25DDB99B22869A2600A8EB42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB99A22869A2600A8EB42 /* ViewController.m */; };
 		25DDB99D22869A2A00A8EB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25DDB99C22869A2A00A8EB42 /* Assets.xcassets */; };
@@ -80,6 +82,9 @@
 		259617A52288173E00D6A124 /* GOCMergeTwoSortedListsSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCMergeTwoSortedListsSolution.h; sourceTree = "<group>"; };
 		259617A62288173E00D6A124 /* GOCMergeTwoSortedListsSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCMergeTwoSortedListsSolution.m; sourceTree = "<group>"; };
 		259617A822881A2900D6A124 /* GOCMergeTwoSortedListsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCMergeTwoSortedListsTests.m; sourceTree = "<group>"; };
+		259617AB22881CC600D6A124 /* GOCMiddleOfTheLinkedListSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCMiddleOfTheLinkedListSolution.h; sourceTree = "<group>"; };
+		259617AC22881CC600D6A124 /* GOCMiddleOfTheLinkedListSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCMiddleOfTheLinkedListSolution.m; sourceTree = "<group>"; };
+		259617AE22881E6F00D6A124 /* GOCMiddleOfTheLinkedListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCMiddleOfTheLinkedListTests.m; sourceTree = "<group>"; };
 		25DDB99322869A2600A8EB42 /* GGObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25DDB99622869A2600A8EB42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25DDB99722869A2600A8EB42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -181,6 +186,7 @@
 				2596179822880CE800D6A124 /* delete_node_in_a_linked_list */,
 				2596179E2288141600D6A124 /* reverse_linked_list */,
 				259617A4228816FF00D6A124 /* merge_two_sorted_lists */,
+				259617AA22881C8F00D6A124 /* middle_of_the_linked_list */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -223,6 +229,16 @@
 				259617A822881A2900D6A124 /* GOCMergeTwoSortedListsTests.m */,
 			);
 			path = merge_two_sorted_lists;
+			sourceTree = "<group>";
+		};
+		259617AA22881C8F00D6A124 /* middle_of_the_linked_list */ = {
+			isa = PBXGroup;
+			children = (
+				259617AB22881CC600D6A124 /* GOCMiddleOfTheLinkedListSolution.h */,
+				259617AC22881CC600D6A124 /* GOCMiddleOfTheLinkedListSolution.m */,
+				259617AE22881E6F00D6A124 /* GOCMiddleOfTheLinkedListTests.m */,
+			);
+			path = middle_of_the_linked_list;
 			sourceTree = "<group>";
 		};
 		25DDB98A22869A2500A8EB42 = {
@@ -441,6 +457,7 @@
 				259617742287B7C800D6A124 /* GOCFindMinimumInRotatedSortedArrayTests.m in Sources */,
 				25961797228807B900D6A124 /* GOCInsertionSortListTests.m in Sources */,
 				2596177E2287C88100D6A124 /* GOCFindPeakElementSolution.m in Sources */,
+				259617AF22881E6F00D6A124 /* GOCMiddleOfTheLinkedListTests.m in Sources */,
 				2596179B22880D4400D6A124 /* GOCDeleteNodeInALinkedListSolution.m in Sources */,
 				259617952287FEBC00D6A124 /* GOCInsertionSortListSolution.m in Sources */,
 				259617A12288147000D6A124 /* GOCReverseLinkedListSolution.m in Sources */,
@@ -456,6 +473,7 @@
 				25DDB9BD2286A0ED00A8EB42 /* GOCBinarySearchSolution.m in Sources */,
 				2596178D2287F4D100D6A124 /* GOCSearchA2DMatrixTests.m in Sources */,
 				259617722287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.m in Sources */,
+				259617AD22881CC600D6A124 /* GOCMiddleOfTheLinkedListSolution.m in Sources */,
 				2596178B2287F11C00D6A124 /* GOCSearchA2DMatrixSolution.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
