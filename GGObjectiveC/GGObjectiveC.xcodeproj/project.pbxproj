@@ -17,6 +17,9 @@
 		259617862287EE4000D6A124 /* GOCMedianOfTwoSortedArraysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617852287EE4000D6A124 /* GOCMedianOfTwoSortedArraysTests.m */; };
 		2596178B2287F11C00D6A124 /* GOCSearchA2DMatrixSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2596178A2287F11C00D6A124 /* GOCSearchA2DMatrixSolution.m */; };
 		2596178D2287F4D100D6A124 /* GOCSearchA2DMatrixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2596178C2287F4D100D6A124 /* GOCSearchA2DMatrixTests.m */; };
+		259617912287FAE800D6A124 /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617902287FAE800D6A124 /* ListNode.m */; };
+		259617952287FEBC00D6A124 /* GOCInsertionSortListSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617942287FEBC00D6A124 /* GOCInsertionSortListSolution.m */; };
+		25961797228807B900D6A124 /* GOCInsertionSortListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25961796228807B900D6A124 /* GOCInsertionSortListTests.m */; };
 		25DDB99822869A2600A8EB42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB99722869A2600A8EB42 /* AppDelegate.m */; };
 		25DDB99B22869A2600A8EB42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB99A22869A2600A8EB42 /* ViewController.m */; };
 		25DDB99D22869A2A00A8EB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25DDB99C22869A2A00A8EB42 /* Assets.xcassets */; };
@@ -57,6 +60,11 @@
 		259617892287F11C00D6A124 /* GOCSearchA2DMatrixSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCSearchA2DMatrixSolution.h; sourceTree = "<group>"; };
 		2596178A2287F11C00D6A124 /* GOCSearchA2DMatrixSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCSearchA2DMatrixSolution.m; sourceTree = "<group>"; };
 		2596178C2287F4D100D6A124 /* GOCSearchA2DMatrixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCSearchA2DMatrixTests.m; sourceTree = "<group>"; };
+		2596178F2287FAE800D6A124 /* ListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
+		259617902287FAE800D6A124 /* ListNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListNode.m; sourceTree = "<group>"; };
+		259617932287FEBC00D6A124 /* GOCInsertionSortListSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCInsertionSortListSolution.h; sourceTree = "<group>"; };
+		259617942287FEBC00D6A124 /* GOCInsertionSortListSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCInsertionSortListSolution.m; sourceTree = "<group>"; };
+		25961796228807B900D6A124 /* GOCInsertionSortListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCInsertionSortListTests.m; sourceTree = "<group>"; };
 		25DDB99322869A2600A8EB42 /* GGObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25DDB99622869A2600A8EB42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25DDB99722869A2600A8EB42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -149,6 +157,26 @@
 			path = search_a_2d_matrix;
 			sourceTree = "<group>";
 		};
+		2596178E2287F89F00D6A124 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				2596178F2287FAE800D6A124 /* ListNode.h */,
+				259617902287FAE800D6A124 /* ListNode.m */,
+				259617922287FE3800D6A124 /* insertion_sort_list */,
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		259617922287FE3800D6A124 /* insertion_sort_list */ = {
+			isa = PBXGroup;
+			children = (
+				259617932287FEBC00D6A124 /* GOCInsertionSortListSolution.h */,
+				259617942287FEBC00D6A124 /* GOCInsertionSortListSolution.m */,
+				25961796228807B900D6A124 /* GOCInsertionSortListTests.m */,
+			);
+			path = insertion_sort_list;
+			sourceTree = "<group>";
+		};
 		25DDB98A22869A2500A8EB42 = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				25DDB9B92286A00200A8EB42 /* BinarySearch */,
+				2596178E2287F89F00D6A124 /* LinkedList */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -359,7 +388,9 @@
 				25DDB9C42286AFCA00A8EB42 /* GOCSearchInsertPositionSolution.m in Sources */,
 				25DDB9CA2286D36900A8EB42 /* GOCFirstBadVersionSolution.m in Sources */,
 				259617742287B7C800D6A124 /* GOCFindMinimumInRotatedSortedArrayTests.m in Sources */,
+				25961797228807B900D6A124 /* GOCInsertionSortListTests.m in Sources */,
 				2596177E2287C88100D6A124 /* GOCFindPeakElementSolution.m in Sources */,
+				259617952287FEBC00D6A124 /* GOCInsertionSortListSolution.m in Sources */,
 				25DDB9AE22869A2B00A8EB42 /* GGObjectiveCTests.m in Sources */,
 				25DDB9CC2286D67C00A8EB42 /* GOCFirstBadVersionTests.m in Sources */,
 				2596177A2287C1D500D6A124 /* GOCSearchInRotatedSortedArrayTests.m in Sources */,
@@ -367,6 +398,7 @@
 				259617802287D13900D6A124 /* GOCFindPeakElementTests.m in Sources */,
 				25DDB9C62286B69500A8EB42 /* GOCSearchInsertPositionTests.m in Sources */,
 				259617842287E48300D6A124 /* GOCMedianOfTwoSortedArraysSolution.m in Sources */,
+				259617912287FAE800D6A124 /* ListNode.m in Sources */,
 				25DDB9BD2286A0ED00A8EB42 /* GOCBinarySearchSolution.m in Sources */,
 				2596178D2287F4D100D6A124 /* GOCSearchA2DMatrixTests.m in Sources */,
 				259617722287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.m in Sources */,
