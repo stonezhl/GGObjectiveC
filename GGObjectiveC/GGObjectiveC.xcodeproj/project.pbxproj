@@ -17,6 +17,8 @@
 		25DDB9BF2286A2A800A8EB42 /* GOCBinarySearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB9BE2286A2A800A8EB42 /* GOCBinarySearchTests.m */; };
 		25DDB9C42286AFCA00A8EB42 /* GOCSearchInsertPositionSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB9C32286AFCA00A8EB42 /* GOCSearchInsertPositionSolution.m */; };
 		25DDB9C62286B69500A8EB42 /* GOCSearchInsertPositionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB9C52286B69500A8EB42 /* GOCSearchInsertPositionTests.m */; };
+		25DDB9CA2286D36900A8EB42 /* GOCFirstBadVersionSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB9C92286D36900A8EB42 /* GOCFirstBadVersionSolution.m */; };
+		25DDB9CC2286D67C00A8EB42 /* GOCFirstBadVersionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB9CB2286D67C00A8EB42 /* GOCFirstBadVersionTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,9 @@
 		25DDB9C22286AFCA00A8EB42 /* GOCSearchInsertPositionSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCSearchInsertPositionSolution.h; sourceTree = "<group>"; };
 		25DDB9C32286AFCA00A8EB42 /* GOCSearchInsertPositionSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCSearchInsertPositionSolution.m; sourceTree = "<group>"; };
 		25DDB9C52286B69500A8EB42 /* GOCSearchInsertPositionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCSearchInsertPositionTests.m; sourceTree = "<group>"; };
+		25DDB9C82286D36900A8EB42 /* GOCFirstBadVersionSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCFirstBadVersionSolution.h; sourceTree = "<group>"; };
+		25DDB9C92286D36900A8EB42 /* GOCFirstBadVersionSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCFirstBadVersionSolution.m; sourceTree = "<group>"; };
+		25DDB9CB2286D67C00A8EB42 /* GOCFirstBadVersionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCFirstBadVersionTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +131,7 @@
 			children = (
 				25DDB9BA2286A09200A8EB42 /* binary_search */,
 				25DDB9C12286AF0400A8EB42 /* search_insert_position */,
+				25DDB9C72286D32A00A8EB42 /* first_bad_version */,
 			);
 			path = BinarySearch;
 			sourceTree = "<group>";
@@ -148,6 +154,16 @@
 				25DDB9C52286B69500A8EB42 /* GOCSearchInsertPositionTests.m */,
 			);
 			path = search_insert_position;
+			sourceTree = "<group>";
+		};
+		25DDB9C72286D32A00A8EB42 /* first_bad_version */ = {
+			isa = PBXGroup;
+			children = (
+				25DDB9C82286D36900A8EB42 /* GOCFirstBadVersionSolution.h */,
+				25DDB9C92286D36900A8EB42 /* GOCFirstBadVersionSolution.m */,
+				25DDB9CB2286D67C00A8EB42 /* GOCFirstBadVersionTests.m */,
+			);
+			path = first_bad_version;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +276,9 @@
 			files = (
 				25DDB9BF2286A2A800A8EB42 /* GOCBinarySearchTests.m in Sources */,
 				25DDB9C42286AFCA00A8EB42 /* GOCSearchInsertPositionSolution.m in Sources */,
+				25DDB9CA2286D36900A8EB42 /* GOCFirstBadVersionSolution.m in Sources */,
 				25DDB9AE22869A2B00A8EB42 /* GGObjectiveCTests.m in Sources */,
+				25DDB9CC2286D67C00A8EB42 /* GOCFirstBadVersionTests.m in Sources */,
 				25DDB9C62286B69500A8EB42 /* GOCSearchInsertPositionTests.m in Sources */,
 				25DDB9BD2286A0ED00A8EB42 /* GOCBinarySearchSolution.m in Sources */,
 			);
