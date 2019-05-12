@@ -24,6 +24,8 @@
 		2596179D228810AD00D6A124 /* GOCDeleteNodeInALinkedListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2596179C228810AD00D6A124 /* GOCDeleteNodeInALinkedListTests.m */; };
 		259617A12288147000D6A124 /* GOCReverseLinkedListSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617A02288147000D6A124 /* GOCReverseLinkedListSolution.m */; };
 		259617A3228815BA00D6A124 /* GOCReverseLinkedListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617A2228815BA00D6A124 /* GOCReverseLinkedListTests.m */; };
+		259617A72288173E00D6A124 /* GOCMergeTwoSortedListsSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617A62288173E00D6A124 /* GOCMergeTwoSortedListsSolution.m */; };
+		259617A922881A2900D6A124 /* GOCMergeTwoSortedListsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617A822881A2900D6A124 /* GOCMergeTwoSortedListsTests.m */; };
 		25DDB99822869A2600A8EB42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB99722869A2600A8EB42 /* AppDelegate.m */; };
 		25DDB99B22869A2600A8EB42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB99A22869A2600A8EB42 /* ViewController.m */; };
 		25DDB99D22869A2A00A8EB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25DDB99C22869A2A00A8EB42 /* Assets.xcassets */; };
@@ -75,6 +77,9 @@
 		2596179F2288147000D6A124 /* GOCReverseLinkedListSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCReverseLinkedListSolution.h; sourceTree = "<group>"; };
 		259617A02288147000D6A124 /* GOCReverseLinkedListSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCReverseLinkedListSolution.m; sourceTree = "<group>"; };
 		259617A2228815BA00D6A124 /* GOCReverseLinkedListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCReverseLinkedListTests.m; sourceTree = "<group>"; };
+		259617A52288173E00D6A124 /* GOCMergeTwoSortedListsSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCMergeTwoSortedListsSolution.h; sourceTree = "<group>"; };
+		259617A62288173E00D6A124 /* GOCMergeTwoSortedListsSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCMergeTwoSortedListsSolution.m; sourceTree = "<group>"; };
+		259617A822881A2900D6A124 /* GOCMergeTwoSortedListsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCMergeTwoSortedListsTests.m; sourceTree = "<group>"; };
 		25DDB99322869A2600A8EB42 /* GGObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25DDB99622869A2600A8EB42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25DDB99722869A2600A8EB42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -175,6 +180,7 @@
 				259617922287FE3800D6A124 /* insertion_sort_list */,
 				2596179822880CE800D6A124 /* delete_node_in_a_linked_list */,
 				2596179E2288141600D6A124 /* reverse_linked_list */,
+				259617A4228816FF00D6A124 /* merge_two_sorted_lists */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -207,6 +213,16 @@
 				259617A2228815BA00D6A124 /* GOCReverseLinkedListTests.m */,
 			);
 			path = reverse_linked_list;
+			sourceTree = "<group>";
+		};
+		259617A4228816FF00D6A124 /* merge_two_sorted_lists */ = {
+			isa = PBXGroup;
+			children = (
+				259617A52288173E00D6A124 /* GOCMergeTwoSortedListsSolution.h */,
+				259617A62288173E00D6A124 /* GOCMergeTwoSortedListsSolution.m */,
+				259617A822881A2900D6A124 /* GOCMergeTwoSortedListsTests.m */,
+			);
+			path = merge_two_sorted_lists;
 			sourceTree = "<group>";
 		};
 		25DDB98A22869A2500A8EB42 = {
@@ -415,6 +431,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				259617A72288173E00D6A124 /* GOCMergeTwoSortedListsSolution.m in Sources */,
 				259617782287BC4100D6A124 /* GOCSearchInRotatedSortedArraySolution.m in Sources */,
 				259617A3228815BA00D6A124 /* GOCReverseLinkedListTests.m in Sources */,
 				25DDB9BF2286A2A800A8EB42 /* GOCBinarySearchTests.m in Sources */,
@@ -430,6 +447,7 @@
 				25DDB9AE22869A2B00A8EB42 /* GGObjectiveCTests.m in Sources */,
 				25DDB9CC2286D67C00A8EB42 /* GOCFirstBadVersionTests.m in Sources */,
 				2596177A2287C1D500D6A124 /* GOCSearchInRotatedSortedArrayTests.m in Sources */,
+				259617A922881A2900D6A124 /* GOCMergeTwoSortedListsTests.m in Sources */,
 				259617862287EE4000D6A124 /* GOCMedianOfTwoSortedArraysTests.m in Sources */,
 				259617802287D13900D6A124 /* GOCFindPeakElementTests.m in Sources */,
 				25DDB9C62286B69500A8EB42 /* GOCSearchInsertPositionTests.m in Sources */,
