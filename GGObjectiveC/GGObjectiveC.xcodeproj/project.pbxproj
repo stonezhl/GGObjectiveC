@@ -15,6 +15,8 @@
 		259617802287D13900D6A124 /* GOCFindPeakElementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2596177F2287D13900D6A124 /* GOCFindPeakElementTests.m */; };
 		259617842287E48300D6A124 /* GOCMedianOfTwoSortedArraysSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617832287E48300D6A124 /* GOCMedianOfTwoSortedArraysSolution.m */; };
 		259617862287EE4000D6A124 /* GOCMedianOfTwoSortedArraysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617852287EE4000D6A124 /* GOCMedianOfTwoSortedArraysTests.m */; };
+		2596178B2287F11C00D6A124 /* GOCSearchA2DMatrixSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2596178A2287F11C00D6A124 /* GOCSearchA2DMatrixSolution.m */; };
+		2596178D2287F4D100D6A124 /* GOCSearchA2DMatrixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2596178C2287F4D100D6A124 /* GOCSearchA2DMatrixTests.m */; };
 		25DDB99822869A2600A8EB42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB99722869A2600A8EB42 /* AppDelegate.m */; };
 		25DDB99B22869A2600A8EB42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB99A22869A2600A8EB42 /* ViewController.m */; };
 		25DDB99D22869A2A00A8EB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25DDB99C22869A2A00A8EB42 /* Assets.xcassets */; };
@@ -52,6 +54,9 @@
 		259617822287E48300D6A124 /* GOCMedianOfTwoSortedArraysSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCMedianOfTwoSortedArraysSolution.h; sourceTree = "<group>"; };
 		259617832287E48300D6A124 /* GOCMedianOfTwoSortedArraysSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCMedianOfTwoSortedArraysSolution.m; sourceTree = "<group>"; };
 		259617852287EE4000D6A124 /* GOCMedianOfTwoSortedArraysTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCMedianOfTwoSortedArraysTests.m; sourceTree = "<group>"; };
+		259617892287F11C00D6A124 /* GOCSearchA2DMatrixSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCSearchA2DMatrixSolution.h; sourceTree = "<group>"; };
+		2596178A2287F11C00D6A124 /* GOCSearchA2DMatrixSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCSearchA2DMatrixSolution.m; sourceTree = "<group>"; };
+		2596178C2287F4D100D6A124 /* GOCSearchA2DMatrixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCSearchA2DMatrixTests.m; sourceTree = "<group>"; };
 		25DDB99322869A2600A8EB42 /* GGObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25DDB99622869A2600A8EB42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25DDB99722869A2600A8EB42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -134,6 +139,16 @@
 			path = median_of_two_sorted_arrays;
 			sourceTree = "<group>";
 		};
+		259617872287F0CB00D6A124 /* search_a_2d_matrix */ = {
+			isa = PBXGroup;
+			children = (
+				259617892287F11C00D6A124 /* GOCSearchA2DMatrixSolution.h */,
+				2596178A2287F11C00D6A124 /* GOCSearchA2DMatrixSolution.m */,
+				2596178C2287F4D100D6A124 /* GOCSearchA2DMatrixTests.m */,
+			);
+			path = search_a_2d_matrix;
+			sourceTree = "<group>";
+		};
 		25DDB98A22869A2500A8EB42 = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +211,7 @@
 				259617752287BBEC00D6A124 /* search_in_rotated_sorted_array */,
 				2596177B2287C65C00D6A124 /* find_peak_element */,
 				259617812287E35B00D6A124 /* median_of_two_sorted_arrays */,
+				259617872287F0CB00D6A124 /* search_a_2d_matrix */,
 			);
 			path = BinarySearch;
 			sourceTree = "<group>";
@@ -352,7 +368,9 @@
 				25DDB9C62286B69500A8EB42 /* GOCSearchInsertPositionTests.m in Sources */,
 				259617842287E48300D6A124 /* GOCMedianOfTwoSortedArraysSolution.m in Sources */,
 				25DDB9BD2286A0ED00A8EB42 /* GOCBinarySearchSolution.m in Sources */,
+				2596178D2287F4D100D6A124 /* GOCSearchA2DMatrixTests.m in Sources */,
 				259617722287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.m in Sources */,
+				2596178B2287F11C00D6A124 /* GOCSearchA2DMatrixSolution.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
