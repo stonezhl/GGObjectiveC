@@ -28,6 +28,8 @@
 		259617A922881A2900D6A124 /* GOCMergeTwoSortedListsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617A822881A2900D6A124 /* GOCMergeTwoSortedListsTests.m */; };
 		259617AD22881CC600D6A124 /* GOCMiddleOfTheLinkedListSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617AC22881CC600D6A124 /* GOCMiddleOfTheLinkedListSolution.m */; };
 		259617AF22881E6F00D6A124 /* GOCMiddleOfTheLinkedListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617AE22881E6F00D6A124 /* GOCMiddleOfTheLinkedListTests.m */; };
+		259617B32288243700D6A124 /* GOCPermutationsSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617B22288243700D6A124 /* GOCPermutationsSolution.m */; };
+		259617B522882CE800D6A124 /* GOCPermutationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617B422882CE800D6A124 /* GOCPermutationsTests.m */; };
 		25DDB99822869A2600A8EB42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB99722869A2600A8EB42 /* AppDelegate.m */; };
 		25DDB99B22869A2600A8EB42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB99A22869A2600A8EB42 /* ViewController.m */; };
 		25DDB99D22869A2A00A8EB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25DDB99C22869A2A00A8EB42 /* Assets.xcassets */; };
@@ -85,6 +87,9 @@
 		259617AB22881CC600D6A124 /* GOCMiddleOfTheLinkedListSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCMiddleOfTheLinkedListSolution.h; sourceTree = "<group>"; };
 		259617AC22881CC600D6A124 /* GOCMiddleOfTheLinkedListSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCMiddleOfTheLinkedListSolution.m; sourceTree = "<group>"; };
 		259617AE22881E6F00D6A124 /* GOCMiddleOfTheLinkedListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCMiddleOfTheLinkedListTests.m; sourceTree = "<group>"; };
+		259617B12288243700D6A124 /* GOCPermutationsSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCPermutationsSolution.h; sourceTree = "<group>"; };
+		259617B22288243700D6A124 /* GOCPermutationsSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCPermutationsSolution.m; sourceTree = "<group>"; };
+		259617B422882CE800D6A124 /* GOCPermutationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCPermutationsTests.m; sourceTree = "<group>"; };
 		25DDB99322869A2600A8EB42 /* GGObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25DDB99622869A2600A8EB42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25DDB99722869A2600A8EB42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -241,6 +246,24 @@
 			path = middle_of_the_linked_list;
 			sourceTree = "<group>";
 		};
+		259617B02288235900D6A124 /* PermutationAndCombination */ = {
+			isa = PBXGroup;
+			children = (
+				259617B622882F0500D6A124 /* permutations */,
+			);
+			path = PermutationAndCombination;
+			sourceTree = "<group>";
+		};
+		259617B622882F0500D6A124 /* permutations */ = {
+			isa = PBXGroup;
+			children = (
+				259617B12288243700D6A124 /* GOCPermutationsSolution.h */,
+				259617B22288243700D6A124 /* GOCPermutationsSolution.m */,
+				259617B422882CE800D6A124 /* GOCPermutationsTests.m */,
+			);
+			path = permutations;
+			sourceTree = "<group>";
+		};
 		25DDB98A22869A2500A8EB42 = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +313,7 @@
 			children = (
 				25DDB9B92286A00200A8EB42 /* BinarySearch */,
 				2596178E2287F89F00D6A124 /* LinkedList */,
+				259617B02288235900D6A124 /* PermutationAndCombination */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -453,9 +477,11 @@
 				25DDB9BF2286A2A800A8EB42 /* GOCBinarySearchTests.m in Sources */,
 				25DDB9C42286AFCA00A8EB42 /* GOCSearchInsertPositionSolution.m in Sources */,
 				25DDB9CA2286D36900A8EB42 /* GOCFirstBadVersionSolution.m in Sources */,
+				259617B522882CE800D6A124 /* GOCPermutationsTests.m in Sources */,
 				2596179D228810AD00D6A124 /* GOCDeleteNodeInALinkedListTests.m in Sources */,
 				259617742287B7C800D6A124 /* GOCFindMinimumInRotatedSortedArrayTests.m in Sources */,
 				25961797228807B900D6A124 /* GOCInsertionSortListTests.m in Sources */,
+				259617B32288243700D6A124 /* GOCPermutationsSolution.m in Sources */,
 				2596177E2287C88100D6A124 /* GOCFindPeakElementSolution.m in Sources */,
 				259617AF22881E6F00D6A124 /* GOCMiddleOfTheLinkedListTests.m in Sources */,
 				2596179B22880D4400D6A124 /* GOCDeleteNodeInALinkedListSolution.m in Sources */,
