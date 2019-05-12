@@ -30,6 +30,8 @@
 		259617AF22881E6F00D6A124 /* GOCMiddleOfTheLinkedListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617AE22881E6F00D6A124 /* GOCMiddleOfTheLinkedListTests.m */; };
 		259617B32288243700D6A124 /* GOCPermutationsSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617B22288243700D6A124 /* GOCPermutationsSolution.m */; };
 		259617B522882CE800D6A124 /* GOCPermutationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617B422882CE800D6A124 /* GOCPermutationsTests.m */; };
+		259617BA2288386B00D6A124 /* GOCSubsetsSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617B92288386B00D6A124 /* GOCSubsetsSolution.m */; };
+		259617BC2288470900D6A124 /* GOCSubsetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617BB2288470900D6A124 /* GOCSubsetsTests.m */; };
 		25DDB99822869A2600A8EB42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB99722869A2600A8EB42 /* AppDelegate.m */; };
 		25DDB99B22869A2600A8EB42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB99A22869A2600A8EB42 /* ViewController.m */; };
 		25DDB99D22869A2A00A8EB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25DDB99C22869A2A00A8EB42 /* Assets.xcassets */; };
@@ -90,6 +92,9 @@
 		259617B12288243700D6A124 /* GOCPermutationsSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCPermutationsSolution.h; sourceTree = "<group>"; };
 		259617B22288243700D6A124 /* GOCPermutationsSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCPermutationsSolution.m; sourceTree = "<group>"; };
 		259617B422882CE800D6A124 /* GOCPermutationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCPermutationsTests.m; sourceTree = "<group>"; };
+		259617B82288386B00D6A124 /* GOCSubsetsSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCSubsetsSolution.h; sourceTree = "<group>"; };
+		259617B92288386B00D6A124 /* GOCSubsetsSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCSubsetsSolution.m; sourceTree = "<group>"; };
+		259617BB2288470900D6A124 /* GOCSubsetsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCSubsetsTests.m; sourceTree = "<group>"; };
 		25DDB99322869A2600A8EB42 /* GGObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25DDB99622869A2600A8EB42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25DDB99722869A2600A8EB42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -250,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				259617B622882F0500D6A124 /* permutations */,
+				259617B7228837EB00D6A124 /* subsets */,
 			);
 			path = PermutationAndCombination;
 			sourceTree = "<group>";
@@ -262,6 +268,16 @@
 				259617B422882CE800D6A124 /* GOCPermutationsTests.m */,
 			);
 			path = permutations;
+			sourceTree = "<group>";
+		};
+		259617B7228837EB00D6A124 /* subsets */ = {
+			isa = PBXGroup;
+			children = (
+				259617B82288386B00D6A124 /* GOCSubsetsSolution.h */,
+				259617B92288386B00D6A124 /* GOCSubsetsSolution.m */,
+				259617BB2288470900D6A124 /* GOCSubsetsTests.m */,
+			);
+			path = subsets;
 			sourceTree = "<group>";
 		};
 		25DDB98A22869A2500A8EB42 = {
@@ -472,6 +488,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				259617A72288173E00D6A124 /* GOCMergeTwoSortedListsSolution.m in Sources */,
+				259617BC2288470900D6A124 /* GOCSubsetsTests.m in Sources */,
 				259617782287BC4100D6A124 /* GOCSearchInRotatedSortedArraySolution.m in Sources */,
 				259617A3228815BA00D6A124 /* GOCReverseLinkedListTests.m in Sources */,
 				25DDB9BF2286A2A800A8EB42 /* GOCBinarySearchTests.m in Sources */,
@@ -490,6 +507,7 @@
 				25DDB9AE22869A2B00A8EB42 /* GGObjectiveCTests.m in Sources */,
 				25DDB9CC2286D67C00A8EB42 /* GOCFirstBadVersionTests.m in Sources */,
 				2596177A2287C1D500D6A124 /* GOCSearchInRotatedSortedArrayTests.m in Sources */,
+				259617BA2288386B00D6A124 /* GOCSubsetsSolution.m in Sources */,
 				259617A922881A2900D6A124 /* GOCMergeTwoSortedListsTests.m in Sources */,
 				259617862287EE4000D6A124 /* GOCMedianOfTwoSortedArraysTests.m in Sources */,
 				259617802287D13900D6A124 /* GOCFindPeakElementTests.m in Sources */,
