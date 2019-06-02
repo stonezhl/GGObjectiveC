@@ -12,6 +12,8 @@
 		2532E10A229A23CB004E01BA /* GOCBinaryTreeInorderTraversalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2532E109229A23CB004E01BA /* GOCBinaryTreeInorderTraversalTests.m */; };
 		2532E10E229A39DC004E01BA /* GOCBinaryTreePreorderTraversalSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2532E10D229A39DC004E01BA /* GOCBinaryTreePreorderTraversalSolution.m */; };
 		2532E110229A40D8004E01BA /* GOCBinaryTreePreorderTraversalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2532E10F229A40D8004E01BA /* GOCBinaryTreePreorderTraversalTests.m */; };
+		2549946022A38BF600C8C5B5 /* GOCBinaryTreePostorderTraversalSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549945F22A38BF600C8C5B5 /* GOCBinaryTreePostorderTraversalSolution.m */; };
+		2549946222A392E900C8C5B5 /* GOCBinaryTreePostorderTraversalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549946122A392E900C8C5B5 /* GOCBinaryTreePostorderTraversalTests.m */; };
 		259617722287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617712287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.m */; };
 		259617742287B7C800D6A124 /* GOCFindMinimumInRotatedSortedArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617732287B7C800D6A124 /* GOCFindMinimumInRotatedSortedArrayTests.m */; };
 		259617782287BC4100D6A124 /* GOCSearchInRotatedSortedArraySolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617772287BC4100D6A124 /* GOCSearchInRotatedSortedArraySolution.m */; };
@@ -70,6 +72,9 @@
 		2532E10C229A39DC004E01BA /* GOCBinaryTreePreorderTraversalSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCBinaryTreePreorderTraversalSolution.h; sourceTree = "<group>"; };
 		2532E10D229A39DC004E01BA /* GOCBinaryTreePreorderTraversalSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCBinaryTreePreorderTraversalSolution.m; sourceTree = "<group>"; };
 		2532E10F229A40D8004E01BA /* GOCBinaryTreePreorderTraversalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCBinaryTreePreorderTraversalTests.m; sourceTree = "<group>"; };
+		2549945E22A38BF600C8C5B5 /* GOCBinaryTreePostorderTraversalSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCBinaryTreePostorderTraversalSolution.h; sourceTree = "<group>"; };
+		2549945F22A38BF600C8C5B5 /* GOCBinaryTreePostorderTraversalSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCBinaryTreePostorderTraversalSolution.m; sourceTree = "<group>"; };
+		2549946122A392E900C8C5B5 /* GOCBinaryTreePostorderTraversalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCBinaryTreePostorderTraversalTests.m; sourceTree = "<group>"; };
 		259617702287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCFindMinimumInRotatedSortedArraySolution.h; sourceTree = "<group>"; };
 		259617712287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCFindMinimumInRotatedSortedArraySolution.m; sourceTree = "<group>"; };
 		259617732287B7C800D6A124 /* GOCFindMinimumInRotatedSortedArrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCFindMinimumInRotatedSortedArrayTests.m; sourceTree = "<group>"; };
@@ -170,6 +175,16 @@
 				2532E10F229A40D8004E01BA /* GOCBinaryTreePreorderTraversalTests.m */,
 			);
 			path = binary_tree_preorder_traversal;
+			sourceTree = "<group>";
+		};
+		2549945D22A38BAF00C8C5B5 /* binary_tree_postorder_traversal */ = {
+			isa = PBXGroup;
+			children = (
+				2549945E22A38BF600C8C5B5 /* GOCBinaryTreePostorderTraversalSolution.h */,
+				2549945F22A38BF600C8C5B5 /* GOCBinaryTreePostorderTraversalSolution.m */,
+				2549946122A392E900C8C5B5 /* GOCBinaryTreePostorderTraversalTests.m */,
+			);
+			path = binary_tree_postorder_traversal;
 			sourceTree = "<group>";
 		};
 		2596176F2287B3D700D6A124 /* find_minimum_in_rotated_sorted_array */ = {
@@ -323,6 +338,7 @@
 				252D36DF22997C0900022FD1 /* TreeNodeTests.m */,
 				2532E105229A1C6C004E01BA /* binary_tree_inorder_traversal */,
 				2532E10B229A377C004E01BA /* binary_tree_preorder_traversal */,
+				2549945D22A38BAF00C8C5B5 /* binary_tree_postorder_traversal */,
 			);
 			path = BinaryTree;
 			sourceTree = "<group>";
@@ -535,10 +551,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2549946222A392E900C8C5B5 /* GOCBinaryTreePostorderTraversalTests.m in Sources */,
 				259617A72288173E00D6A124 /* GOCMergeTwoSortedListsSolution.m in Sources */,
 				259617BC2288470900D6A124 /* GOCSubsetsTests.m in Sources */,
 				259617782287BC4100D6A124 /* GOCSearchInRotatedSortedArraySolution.m in Sources */,
 				259617A3228815BA00D6A124 /* GOCReverseLinkedListTests.m in Sources */,
+				2549946022A38BF600C8C5B5 /* GOCBinaryTreePostorderTraversalSolution.m in Sources */,
 				2532E110229A40D8004E01BA /* GOCBinaryTreePreorderTraversalTests.m in Sources */,
 				25DDB9BF2286A2A800A8EB42 /* GOCBinarySearchTests.m in Sources */,
 				259617C4228C441E00D6A124 /* TreeNode.m in Sources */,
