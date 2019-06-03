@@ -20,6 +20,8 @@
 		2549946E22A40C2D00C8C5B5 /* GOCBalancedBinaryTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549946D22A40C2D00C8C5B5 /* GOCBalancedBinaryTreeTests.m */; };
 		2549947322A40F1100C8C5B5 /* GOCBinaryTreeMaximumPathSumSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549947222A40F1100C8C5B5 /* GOCBinaryTreeMaximumPathSumSolution.m */; };
 		2549947522A55C9500C8C5B5 /* GOCBinaryTreeMaximumPathSumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549947422A55C9500C8C5B5 /* GOCBinaryTreeMaximumPathSumTests.m */; };
+		2549947922A560B300C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549947822A560B300C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeSolution.m */; };
+		2549947B22A563AB00C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549947A22A563AB00C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeTests.m */; };
 		259617722287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617712287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.m */; };
 		259617742287B7C800D6A124 /* GOCFindMinimumInRotatedSortedArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617732287B7C800D6A124 /* GOCFindMinimumInRotatedSortedArrayTests.m */; };
 		259617782287BC4100D6A124 /* GOCSearchInRotatedSortedArraySolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617772287BC4100D6A124 /* GOCSearchInRotatedSortedArraySolution.m */; };
@@ -90,6 +92,9 @@
 		2549947122A40F1100C8C5B5 /* GOCBinaryTreeMaximumPathSumSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCBinaryTreeMaximumPathSumSolution.h; sourceTree = "<group>"; };
 		2549947222A40F1100C8C5B5 /* GOCBinaryTreeMaximumPathSumSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCBinaryTreeMaximumPathSumSolution.m; sourceTree = "<group>"; };
 		2549947422A55C9500C8C5B5 /* GOCBinaryTreeMaximumPathSumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCBinaryTreeMaximumPathSumTests.m; sourceTree = "<group>"; };
+		2549947722A560B300C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCLowestCommonAncestorOfABinarySearchTreeSolution.h; sourceTree = "<group>"; };
+		2549947822A560B300C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCLowestCommonAncestorOfABinarySearchTreeSolution.m; sourceTree = "<group>"; };
+		2549947A22A563AB00C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCLowestCommonAncestorOfABinarySearchTreeTests.m; sourceTree = "<group>"; };
 		259617702287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCFindMinimumInRotatedSortedArraySolution.h; sourceTree = "<group>"; };
 		259617712287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCFindMinimumInRotatedSortedArraySolution.m; sourceTree = "<group>"; };
 		259617732287B7C800D6A124 /* GOCFindMinimumInRotatedSortedArrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCFindMinimumInRotatedSortedArrayTests.m; sourceTree = "<group>"; };
@@ -230,6 +235,16 @@
 				2549947422A55C9500C8C5B5 /* GOCBinaryTreeMaximumPathSumTests.m */,
 			);
 			path = binary_tree_maximum_path_sum;
+			sourceTree = "<group>";
+		};
+		2549947622A5605900C8C5B5 /* lowest_common_ancestor_of_a_binary_search_tree */ = {
+			isa = PBXGroup;
+			children = (
+				2549947722A560B300C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeSolution.h */,
+				2549947822A560B300C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeSolution.m */,
+				2549947A22A563AB00C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeTests.m */,
+			);
+			path = lowest_common_ancestor_of_a_binary_search_tree;
 			sourceTree = "<group>";
 		};
 		2596176F2287B3D700D6A124 /* find_minimum_in_rotated_sorted_array */ = {
@@ -387,6 +402,7 @@
 				2549946322A39C3300C8C5B5 /* maximum_depth_of_binary_tree */,
 				2549946922A3FBD000C8C5B5 /* balanced_binary_tree */,
 				2549947022A40ED600C8C5B5 /* binary_tree_maximum_path_sum */,
+				2549947622A5605900C8C5B5 /* lowest_common_ancestor_of_a_binary_search_tree */,
 			);
 			path = BinaryTree;
 			sourceTree = "<group>";
@@ -625,10 +641,12 @@
 				259617952287FEBC00D6A124 /* GOCInsertionSortListSolution.m in Sources */,
 				259617A12288147000D6A124 /* GOCReverseLinkedListSolution.m in Sources */,
 				25DDB9AE22869A2B00A8EB42 /* GGObjectiveCTests.m in Sources */,
+				2549947922A560B300C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeSolution.m in Sources */,
 				25DDB9CC2286D67C00A8EB42 /* GOCFirstBadVersionTests.m in Sources */,
 				2596177A2287C1D500D6A124 /* GOCSearchInRotatedSortedArrayTests.m in Sources */,
 				259617BA2288386B00D6A124 /* GOCSubsetsSolution.m in Sources */,
 				2532E10A229A23CB004E01BA /* GOCBinaryTreeInorderTraversalTests.m in Sources */,
+				2549947B22A563AB00C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeTests.m in Sources */,
 				259617A922881A2900D6A124 /* GOCMergeTwoSortedListsTests.m in Sources */,
 				259617862287EE4000D6A124 /* GOCMedianOfTwoSortedArraysTests.m in Sources */,
 				259617802287D13900D6A124 /* GOCFindPeakElementTests.m in Sources */,
