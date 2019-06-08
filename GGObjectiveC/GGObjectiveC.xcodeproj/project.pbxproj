@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2528C1C022AB9D0800685E48 /* GOCTriangleSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528C1BF22AB9D0800685E48 /* GOCTriangleSolution.m */; };
+		2528C1C222AB9FD900685E48 /* GOCTriangleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528C1C122AB9FD900685E48 /* GOCTriangleTests.m */; };
 		252D36E022997C0900022FD1 /* TreeNodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 252D36DF22997C0900022FD1 /* TreeNodeTests.m */; };
 		2532E108229A1D10004E01BA /* GOCBinaryTreeInorderTraversalSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2532E107229A1D10004E01BA /* GOCBinaryTreeInorderTraversalSolution.m */; };
 		2532E10A229A23CB004E01BA /* GOCBinaryTreeInorderTraversalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2532E109229A23CB004E01BA /* GOCBinaryTreeInorderTraversalTests.m */; };
@@ -83,6 +85,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2528C1BE22AB9D0800685E48 /* GOCTriangleSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCTriangleSolution.h; sourceTree = "<group>"; };
+		2528C1BF22AB9D0800685E48 /* GOCTriangleSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCTriangleSolution.m; sourceTree = "<group>"; };
+		2528C1C122AB9FD900685E48 /* GOCTriangleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCTriangleTests.m; sourceTree = "<group>"; };
 		252D36DF22997C0900022FD1 /* TreeNodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeNodeTests.m; sourceTree = "<group>"; };
 		2532E106229A1D10004E01BA /* GOCBinaryTreeInorderTraversalSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCBinaryTreeInorderTraversalSolution.h; sourceTree = "<group>"; };
 		2532E107229A1D10004E01BA /* GOCBinaryTreeInorderTraversalSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCBinaryTreeInorderTraversalSolution.m; sourceTree = "<group>"; };
@@ -202,6 +207,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2528C1BC22AB9CC300685E48 /* DynamicProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				2528C1BD22AB9CED00685E48 /* triangle */,
+			);
+			path = DynamicProgramming;
+			sourceTree = "<group>";
+		};
+		2528C1BD22AB9CED00685E48 /* triangle */ = {
+			isa = PBXGroup;
+			children = (
+				2528C1BE22AB9D0800685E48 /* GOCTriangleSolution.h */,
+				2528C1BF22AB9D0800685E48 /* GOCTriangleSolution.m */,
+				2528C1C122AB9FD900685E48 /* GOCTriangleTests.m */,
+			);
+			path = triangle;
+			sourceTree = "<group>";
+		};
 		2532E105229A1C6C004E01BA /* binary_tree_inorder_traversal */ = {
 			isa = PBXGroup;
 			children = (
@@ -538,6 +561,7 @@
 				2596178E2287F89F00D6A124 /* LinkedList */,
 				259617B02288235900D6A124 /* PermutationAndCombination */,
 				259617C122884D7200D6A124 /* BinaryTree */,
+				2528C1BC22AB9CC300685E48 /* DynamicProgramming */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -702,6 +726,8 @@
 				2549946C22A3FC0E00C8C5B5 /* GOCBalancedBinaryTreeSolution.m in Sources */,
 				259617782287BC4100D6A124 /* GOCSearchInRotatedSortedArraySolution.m in Sources */,
 				259617A3228815BA00D6A124 /* GOCReverseLinkedListTests.m in Sources */,
+				2528C1C222AB9FD900685E48 /* GOCTriangleTests.m in Sources */,
+				2528C1C022AB9D0800685E48 /* GOCTriangleSolution.m in Sources */,
 				2549949722A8053C00C8C5B5 /* GOCInsertIntoABinarySearchTreeSolution.m in Sources */,
 				2549946022A38BF600C8C5B5 /* GOCBinaryTreePostorderTraversalSolution.m in Sources */,
 				2532E110229A40D8004E01BA /* GOCBinaryTreePreorderTraversalTests.m in Sources */,
