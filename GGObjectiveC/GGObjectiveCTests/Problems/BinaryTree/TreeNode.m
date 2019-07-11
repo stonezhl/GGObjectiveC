@@ -72,4 +72,42 @@
     return self;
 }
 
+- (NSArray *)arrayFromNode {
+    NSMutableArray *result = [NSMutableArray array];
+    NSMutableArray *queue = [NSMutableArray arrayWithObject:self];
+    while (queue.count > 0) {
+        NSInteger num = queue.count;
+        for (NSInteger i = 0; i < num; i++) {
+            id object = [queue firstObject];
+            [queue removeObjectAtIndex:0];
+            if ([object isKindOfClass:TreeNode.class]) {
+                TreeNode *node = object;
+                [result addObject:@(node.val)];
+                if (node.left) {
+                    [queue addObject:node.left];
+                } else {
+                    [queue addObject:[NSNull null]];
+                }
+                if (node.right) {
+                    [queue addObject:node.right];
+                } else {
+                    [queue addObject:[NSNull null]];
+                }
+            } else {
+                [result addObject:[NSNull null]];
+            }
+        }
+    }
+    NSInteger i = result.count - 1;
+    while (i >= 0) {
+        id object = result[i];
+        if ([object isKindOfClass:NSNumber.class]) {
+            break;
+        } else {
+            i--;
+        }
+    }
+    return [result subarrayWithRange:NSMakeRange(0, i + 1)];
+}
+
 @end

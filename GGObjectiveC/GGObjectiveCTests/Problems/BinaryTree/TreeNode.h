@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (nullable instancetype)rootNodeWithArray:(NSArray *)array;
 + (nullable instancetype)nodeWithObject:(id)object;
 + (instancetype)nodeWithVal:(NSInteger)val;
+- (NSArray *)arrayFromNode;
 @end
 
 NS_ASSUME_NONNULL_END

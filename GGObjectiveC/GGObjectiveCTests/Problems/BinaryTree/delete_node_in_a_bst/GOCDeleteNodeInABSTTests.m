@@ -23,9 +23,9 @@
     TreeNode *root = [TreeNode rootNodeWithArray:array];
     GOCDeleteNodeInABSTSolution *solution = [[GOCDeleteNodeInABSTSolution alloc] init];
     TreeNode *newRoot = [solution deleteNode:root key:3];
-    XCTAssertEqual(newRoot.left.val, 2);
-    XCTAssertNil(newRoot.left.left);
-    XCTAssertEqual(newRoot.left.right.val, 4);
+    NSArray *newArray = [newRoot arrayFromNode];
+    NSArray *expectedArray = @[@5, @2, @6, [NSNull null], @4, [NSNull null], @7];
+    XCTAssertEqualObjects(newArray, expectedArray);
 }
 
 @end

@@ -23,7 +23,9 @@
     TreeNode *root = [TreeNode rootNodeWithArray:array];
     GOCInsertIntoABinarySearchTreeSolution *solution = [[GOCInsertIntoABinarySearchTreeSolution alloc] init];
     TreeNode *newRoot = [solution insertIntoBST:root val:5];
-    XCTAssertEqual(newRoot.right.left.val, 5);
+    NSArray *newArray = [newRoot arrayFromNode];
+    NSArray *expectedArray = @[@4, @2, @7, @1, @3, @5];
+    XCTAssertEqualObjects(newArray, expectedArray);
 }
 
 @end
