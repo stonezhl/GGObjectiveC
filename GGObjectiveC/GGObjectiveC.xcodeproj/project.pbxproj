@@ -1,0 +1,1075 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2528C1C022AB9D0800685E48 /* GOCTriangleSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528C1BF22AB9D0800685E48 /* GOCTriangleSolution.m */; };
+		2528C1C222AB9FD900685E48 /* GOCTriangleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528C1C122AB9FD900685E48 /* GOCTriangleTests.m */; };
+		2528C1C622ABDC8A00685E48 /* GOCMinimumPathSumSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528C1C522ABDC8A00685E48 /* GOCMinimumPathSumSolution.m */; };
+		2528C1C822ABEB6D00685E48 /* GOCMinimumPathSumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528C1C722ABEB6D00685E48 /* GOCMinimumPathSumTests.m */; };
+		2528C1CC22ABF3FC00685E48 /* GOCUniquePathsSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528C1CB22ABF3FC00685E48 /* GOCUniquePathsSolution.m */; };
+		2528C1CE22ABF6D900685E48 /* GOCUniquePathsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528C1CD22ABF6D900685E48 /* GOCUniquePathsTests.m */; };
+		2528C1D222AC972800685E48 /* GOCClimbingStairsSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528C1D122AC972800685E48 /* GOCClimbingStairsSolution.m */; };
+		2528C1D422AC9A4300685E48 /* GOCClimbingStairsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528C1D322AC9A4300685E48 /* GOCClimbingStairsTests.m */; };
+		252D36E022997C0900022FD1 /* TreeNodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 252D36DF22997C0900022FD1 /* TreeNodeTests.m */; };
+		2532E108229A1D10004E01BA /* GOCBinaryTreeInorderTraversalSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2532E107229A1D10004E01BA /* GOCBinaryTreeInorderTraversalSolution.m */; };
+		2532E10A229A23CB004E01BA /* GOCBinaryTreeInorderTraversalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2532E109229A23CB004E01BA /* GOCBinaryTreeInorderTraversalTests.m */; };
+		2532E10E229A39DC004E01BA /* GOCBinaryTreePreorderTraversalSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2532E10D229A39DC004E01BA /* GOCBinaryTreePreorderTraversalSolution.m */; };
+		2532E110229A40D8004E01BA /* GOCBinaryTreePreorderTraversalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2532E10F229A40D8004E01BA /* GOCBinaryTreePreorderTraversalTests.m */; };
+		2549946022A38BF600C8C5B5 /* GOCBinaryTreePostorderTraversalSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549945F22A38BF600C8C5B5 /* GOCBinaryTreePostorderTraversalSolution.m */; };
+		2549946222A392E900C8C5B5 /* GOCBinaryTreePostorderTraversalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549946122A392E900C8C5B5 /* GOCBinaryTreePostorderTraversalTests.m */; };
+		2549946622A39CC900C8C5B5 /* GOCMaximumDepthOfBinaryTreeSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549946522A39CC900C8C5B5 /* GOCMaximumDepthOfBinaryTreeSolution.m */; };
+		2549946822A3A4C300C8C5B5 /* GOCMaximumDepthOfBinaryTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549946722A3A4C300C8C5B5 /* GOCMaximumDepthOfBinaryTreeTests.m */; };
+		2549946C22A3FC0E00C8C5B5 /* GOCBalancedBinaryTreeSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549946B22A3FC0E00C8C5B5 /* GOCBalancedBinaryTreeSolution.m */; };
+		2549946E22A40C2D00C8C5B5 /* GOCBalancedBinaryTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549946D22A40C2D00C8C5B5 /* GOCBalancedBinaryTreeTests.m */; };
+		2549947322A40F1100C8C5B5 /* GOCBinaryTreeMaximumPathSumSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549947222A40F1100C8C5B5 /* GOCBinaryTreeMaximumPathSumSolution.m */; };
+		2549947522A55C9500C8C5B5 /* GOCBinaryTreeMaximumPathSumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549947422A55C9500C8C5B5 /* GOCBinaryTreeMaximumPathSumTests.m */; };
+		2549947922A560B300C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549947822A560B300C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeSolution.m */; };
+		2549947B22A563AB00C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549947A22A563AB00C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeTests.m */; };
+		2549947F22A6BBB100C8C5B5 /* GOCLowestCommonAncestorOfABinaryTreeSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549947E22A6BBB100C8C5B5 /* GOCLowestCommonAncestorOfABinaryTreeSolution.m */; };
+		2549948122A6C15200C8C5B5 /* GOCLowestCommonAncestorOfABinaryTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549948022A6C15200C8C5B5 /* GOCLowestCommonAncestorOfABinaryTreeTests.m */; };
+		2549948522A7F5C900C8C5B5 /* GOCBinaryTreeLevelOrderTraversalSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549948422A7F5C900C8C5B5 /* GOCBinaryTreeLevelOrderTraversalSolution.m */; };
+		2549948722A7FBC200C8C5B5 /* GOCBinaryTreeLevelOrderTraversalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549948622A7FBC200C8C5B5 /* GOCBinaryTreeLevelOrderTraversalTests.m */; };
+		2549948F22A800DD00C8C5B5 /* GOCValidateBinarySearchTreeSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549948E22A800DD00C8C5B5 /* GOCValidateBinarySearchTreeSolution.m */; };
+		2549949322A8038400C8C5B5 /* GOCValidateBinarySearchTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549949222A8038400C8C5B5 /* GOCValidateBinarySearchTreeTests.m */; };
+		2549949722A8053C00C8C5B5 /* GOCInsertIntoABinarySearchTreeSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549949622A8053C00C8C5B5 /* GOCInsertIntoABinarySearchTreeSolution.m */; };
+		2549949B22A8076100C8C5B5 /* GOCInsertIntoABinarySearchTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549949A22A8076100C8C5B5 /* GOCInsertIntoABinarySearchTreeTests.m */; };
+		2549949E22A80C0F00C8C5B5 /* GOCDeleteNodeInABSTSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549949D22A80C0F00C8C5B5 /* GOCDeleteNodeInABSTSolution.m */; };
+		254994A122A80FEE00C8C5B5 /* GOCDeleteNodeInABSTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 254994A022A80FEE00C8C5B5 /* GOCDeleteNodeInABSTTests.m */; };
+		259617722287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617712287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.m */; };
+		259617742287B7C800D6A124 /* GOCFindMinimumInRotatedSortedArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617732287B7C800D6A124 /* GOCFindMinimumInRotatedSortedArrayTests.m */; };
+		259617782287BC4100D6A124 /* GOCSearchInRotatedSortedArraySolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617772287BC4100D6A124 /* GOCSearchInRotatedSortedArraySolution.m */; };
+		2596177A2287C1D500D6A124 /* GOCSearchInRotatedSortedArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617792287C1D500D6A124 /* GOCSearchInRotatedSortedArrayTests.m */; };
+		2596177E2287C88100D6A124 /* GOCFindPeakElementSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2596177D2287C88100D6A124 /* GOCFindPeakElementSolution.m */; };
+		259617802287D13900D6A124 /* GOCFindPeakElementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2596177F2287D13900D6A124 /* GOCFindPeakElementTests.m */; };
+		259617842287E48300D6A124 /* GOCMedianOfTwoSortedArraysSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617832287E48300D6A124 /* GOCMedianOfTwoSortedArraysSolution.m */; };
+		259617862287EE4000D6A124 /* GOCMedianOfTwoSortedArraysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617852287EE4000D6A124 /* GOCMedianOfTwoSortedArraysTests.m */; };
+		2596178B2287F11C00D6A124 /* GOCSearchA2DMatrixSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2596178A2287F11C00D6A124 /* GOCSearchA2DMatrixSolution.m */; };
+		2596178D2287F4D100D6A124 /* GOCSearchA2DMatrixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2596178C2287F4D100D6A124 /* GOCSearchA2DMatrixTests.m */; };
+		259617912287FAE800D6A124 /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617902287FAE800D6A124 /* ListNode.m */; };
+		259617952287FEBC00D6A124 /* GOCInsertionSortListSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617942287FEBC00D6A124 /* GOCInsertionSortListSolution.m */; };
+		25961797228807B900D6A124 /* GOCInsertionSortListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25961796228807B900D6A124 /* GOCInsertionSortListTests.m */; };
+		2596179B22880D4400D6A124 /* GOCDeleteNodeInALinkedListSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2596179A22880D4400D6A124 /* GOCDeleteNodeInALinkedListSolution.m */; };
+		2596179D228810AD00D6A124 /* GOCDeleteNodeInALinkedListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2596179C228810AD00D6A124 /* GOCDeleteNodeInALinkedListTests.m */; };
+		259617A12288147000D6A124 /* GOCReverseLinkedListSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617A02288147000D6A124 /* GOCReverseLinkedListSolution.m */; };
+		259617A3228815BA00D6A124 /* GOCReverseLinkedListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617A2228815BA00D6A124 /* GOCReverseLinkedListTests.m */; };
+		259617A72288173E00D6A124 /* GOCMergeTwoSortedListsSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617A62288173E00D6A124 /* GOCMergeTwoSortedListsSolution.m */; };
+		259617A922881A2900D6A124 /* GOCMergeTwoSortedListsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617A822881A2900D6A124 /* GOCMergeTwoSortedListsTests.m */; };
+		259617AD22881CC600D6A124 /* GOCMiddleOfTheLinkedListSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617AC22881CC600D6A124 /* GOCMiddleOfTheLinkedListSolution.m */; };
+		259617AF22881E6F00D6A124 /* GOCMiddleOfTheLinkedListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617AE22881E6F00D6A124 /* GOCMiddleOfTheLinkedListTests.m */; };
+		259617B32288243700D6A124 /* GOCPermutationsSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617B22288243700D6A124 /* GOCPermutationsSolution.m */; };
+		259617B522882CE800D6A124 /* GOCPermutationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617B422882CE800D6A124 /* GOCPermutationsTests.m */; };
+		259617BA2288386B00D6A124 /* GOCSubsetsSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617B92288386B00D6A124 /* GOCSubsetsSolution.m */; };
+		259617BC2288470900D6A124 /* GOCSubsetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617BB2288470900D6A124 /* GOCSubsetsTests.m */; };
+		259617C4228C441E00D6A124 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 259617C3228C441E00D6A124 /* TreeNode.m */; };
+		25DDB99822869A2600A8EB42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB99722869A2600A8EB42 /* AppDelegate.m */; };
+		25DDB99B22869A2600A8EB42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB99A22869A2600A8EB42 /* ViewController.m */; };
+		25DDB99D22869A2A00A8EB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25DDB99C22869A2A00A8EB42 /* Assets.xcassets */; };
+		25DDB9A022869A2A00A8EB42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DDB99E22869A2A00A8EB42 /* Main.storyboard */; };
+		25DDB9A322869A2A00A8EB42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB9A222869A2A00A8EB42 /* main.m */; };
+		25DDB9AE22869A2B00A8EB42 /* GGObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB9AD22869A2B00A8EB42 /* GGObjectiveCTests.m */; };
+		25DDB9BD2286A0ED00A8EB42 /* GOCBinarySearchSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB9BC2286A0ED00A8EB42 /* GOCBinarySearchSolution.m */; };
+		25DDB9BF2286A2A800A8EB42 /* GOCBinarySearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB9BE2286A2A800A8EB42 /* GOCBinarySearchTests.m */; };
+		25DDB9C42286AFCA00A8EB42 /* GOCSearchInsertPositionSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB9C32286AFCA00A8EB42 /* GOCSearchInsertPositionSolution.m */; };
+		25DDB9C62286B69500A8EB42 /* GOCSearchInsertPositionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB9C52286B69500A8EB42 /* GOCSearchInsertPositionTests.m */; };
+		25DDB9CA2286D36900A8EB42 /* GOCFirstBadVersionSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB9C92286D36900A8EB42 /* GOCFirstBadVersionSolution.m */; };
+		25DDB9CC2286D67C00A8EB42 /* GOCFirstBadVersionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB9CB2286D67C00A8EB42 /* GOCFirstBadVersionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25DDB9AA22869A2B00A8EB42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25DDB98B22869A2500A8EB42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25DDB99222869A2600A8EB42;
+			remoteInfo = GGObjectiveC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2528C1BE22AB9D0800685E48 /* GOCTriangleSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCTriangleSolution.h; sourceTree = "<group>"; };
+		2528C1BF22AB9D0800685E48 /* GOCTriangleSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCTriangleSolution.m; sourceTree = "<group>"; };
+		2528C1C122AB9FD900685E48 /* GOCTriangleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCTriangleTests.m; sourceTree = "<group>"; };
+		2528C1C422ABDC8A00685E48 /* GOCMinimumPathSumSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCMinimumPathSumSolution.h; sourceTree = "<group>"; };
+		2528C1C522ABDC8A00685E48 /* GOCMinimumPathSumSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCMinimumPathSumSolution.m; sourceTree = "<group>"; };
+		2528C1C722ABEB6D00685E48 /* GOCMinimumPathSumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCMinimumPathSumTests.m; sourceTree = "<group>"; };
+		2528C1CA22ABF3FC00685E48 /* GOCUniquePathsSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCUniquePathsSolution.h; sourceTree = "<group>"; };
+		2528C1CB22ABF3FC00685E48 /* GOCUniquePathsSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCUniquePathsSolution.m; sourceTree = "<group>"; };
+		2528C1CD22ABF6D900685E48 /* GOCUniquePathsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCUniquePathsTests.m; sourceTree = "<group>"; };
+		2528C1D022AC972800685E48 /* GOCClimbingStairsSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCClimbingStairsSolution.h; sourceTree = "<group>"; };
+		2528C1D122AC972800685E48 /* GOCClimbingStairsSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCClimbingStairsSolution.m; sourceTree = "<group>"; };
+		2528C1D322AC9A4300685E48 /* GOCClimbingStairsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCClimbingStairsTests.m; sourceTree = "<group>"; };
+		252D36DF22997C0900022FD1 /* TreeNodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeNodeTests.m; sourceTree = "<group>"; };
+		2532E106229A1D10004E01BA /* GOCBinaryTreeInorderTraversalSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCBinaryTreeInorderTraversalSolution.h; sourceTree = "<group>"; };
+		2532E107229A1D10004E01BA /* GOCBinaryTreeInorderTraversalSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCBinaryTreeInorderTraversalSolution.m; sourceTree = "<group>"; };
+		2532E109229A23CB004E01BA /* GOCBinaryTreeInorderTraversalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCBinaryTreeInorderTraversalTests.m; sourceTree = "<group>"; };
+		2532E10C229A39DC004E01BA /* GOCBinaryTreePreorderTraversalSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCBinaryTreePreorderTraversalSolution.h; sourceTree = "<group>"; };
+		2532E10D229A39DC004E01BA /* GOCBinaryTreePreorderTraversalSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCBinaryTreePreorderTraversalSolution.m; sourceTree = "<group>"; };
+		2532E10F229A40D8004E01BA /* GOCBinaryTreePreorderTraversalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCBinaryTreePreorderTraversalTests.m; sourceTree = "<group>"; };
+		2549945E22A38BF600C8C5B5 /* GOCBinaryTreePostorderTraversalSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCBinaryTreePostorderTraversalSolution.h; sourceTree = "<group>"; };
+		2549945F22A38BF600C8C5B5 /* GOCBinaryTreePostorderTraversalSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCBinaryTreePostorderTraversalSolution.m; sourceTree = "<group>"; };
+		2549946122A392E900C8C5B5 /* GOCBinaryTreePostorderTraversalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCBinaryTreePostorderTraversalTests.m; sourceTree = "<group>"; };
+		2549946422A39CC900C8C5B5 /* GOCMaximumDepthOfBinaryTreeSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCMaximumDepthOfBinaryTreeSolution.h; sourceTree = "<group>"; };
+		2549946522A39CC900C8C5B5 /* GOCMaximumDepthOfBinaryTreeSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCMaximumDepthOfBinaryTreeSolution.m; sourceTree = "<group>"; };
+		2549946722A3A4C300C8C5B5 /* GOCMaximumDepthOfBinaryTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCMaximumDepthOfBinaryTreeTests.m; sourceTree = "<group>"; };
+		2549946A22A3FC0E00C8C5B5 /* GOCBalancedBinaryTreeSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCBalancedBinaryTreeSolution.h; sourceTree = "<group>"; };
+		2549946B22A3FC0E00C8C5B5 /* GOCBalancedBinaryTreeSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCBalancedBinaryTreeSolution.m; sourceTree = "<group>"; };
+		2549946D22A40C2D00C8C5B5 /* GOCBalancedBinaryTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCBalancedBinaryTreeTests.m; sourceTree = "<group>"; };
+		2549947122A40F1100C8C5B5 /* GOCBinaryTreeMaximumPathSumSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCBinaryTreeMaximumPathSumSolution.h; sourceTree = "<group>"; };
+		2549947222A40F1100C8C5B5 /* GOCBinaryTreeMaximumPathSumSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCBinaryTreeMaximumPathSumSolution.m; sourceTree = "<group>"; };
+		2549947422A55C9500C8C5B5 /* GOCBinaryTreeMaximumPathSumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCBinaryTreeMaximumPathSumTests.m; sourceTree = "<group>"; };
+		2549947722A560B300C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCLowestCommonAncestorOfABinarySearchTreeSolution.h; sourceTree = "<group>"; };
+		2549947822A560B300C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCLowestCommonAncestorOfABinarySearchTreeSolution.m; sourceTree = "<group>"; };
+		2549947A22A563AB00C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCLowestCommonAncestorOfABinarySearchTreeTests.m; sourceTree = "<group>"; };
+		2549947D22A6BBB100C8C5B5 /* GOCLowestCommonAncestorOfABinaryTreeSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCLowestCommonAncestorOfABinaryTreeSolution.h; sourceTree = "<group>"; };
+		2549947E22A6BBB100C8C5B5 /* GOCLowestCommonAncestorOfABinaryTreeSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCLowestCommonAncestorOfABinaryTreeSolution.m; sourceTree = "<group>"; };
+		2549948022A6C15200C8C5B5 /* GOCLowestCommonAncestorOfABinaryTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCLowestCommonAncestorOfABinaryTreeTests.m; sourceTree = "<group>"; };
+		2549948322A7F5C900C8C5B5 /* GOCBinaryTreeLevelOrderTraversalSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCBinaryTreeLevelOrderTraversalSolution.h; sourceTree = "<group>"; };
+		2549948422A7F5C900C8C5B5 /* GOCBinaryTreeLevelOrderTraversalSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCBinaryTreeLevelOrderTraversalSolution.m; sourceTree = "<group>"; };
+		2549948622A7FBC200C8C5B5 /* GOCBinaryTreeLevelOrderTraversalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCBinaryTreeLevelOrderTraversalTests.m; sourceTree = "<group>"; };
+		2549948D22A800DD00C8C5B5 /* GOCValidateBinarySearchTreeSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCValidateBinarySearchTreeSolution.h; sourceTree = "<group>"; };
+		2549948E22A800DD00C8C5B5 /* GOCValidateBinarySearchTreeSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCValidateBinarySearchTreeSolution.m; sourceTree = "<group>"; };
+		2549949222A8038400C8C5B5 /* GOCValidateBinarySearchTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCValidateBinarySearchTreeTests.m; sourceTree = "<group>"; };
+		2549949522A8053C00C8C5B5 /* GOCInsertIntoABinarySearchTreeSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCInsertIntoABinarySearchTreeSolution.h; sourceTree = "<group>"; };
+		2549949622A8053C00C8C5B5 /* GOCInsertIntoABinarySearchTreeSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCInsertIntoABinarySearchTreeSolution.m; sourceTree = "<group>"; };
+		2549949A22A8076100C8C5B5 /* GOCInsertIntoABinarySearchTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCInsertIntoABinarySearchTreeTests.m; sourceTree = "<group>"; };
+		2549949C22A80C0F00C8C5B5 /* GOCDeleteNodeInABSTSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCDeleteNodeInABSTSolution.h; sourceTree = "<group>"; };
+		2549949D22A80C0F00C8C5B5 /* GOCDeleteNodeInABSTSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCDeleteNodeInABSTSolution.m; sourceTree = "<group>"; };
+		254994A022A80FEE00C8C5B5 /* GOCDeleteNodeInABSTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCDeleteNodeInABSTTests.m; sourceTree = "<group>"; };
+		259617702287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCFindMinimumInRotatedSortedArraySolution.h; sourceTree = "<group>"; };
+		259617712287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCFindMinimumInRotatedSortedArraySolution.m; sourceTree = "<group>"; };
+		259617732287B7C800D6A124 /* GOCFindMinimumInRotatedSortedArrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCFindMinimumInRotatedSortedArrayTests.m; sourceTree = "<group>"; };
+		259617762287BC4100D6A124 /* GOCSearchInRotatedSortedArraySolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCSearchInRotatedSortedArraySolution.h; sourceTree = "<group>"; };
+		259617772287BC4100D6A124 /* GOCSearchInRotatedSortedArraySolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCSearchInRotatedSortedArraySolution.m; sourceTree = "<group>"; };
+		259617792287C1D500D6A124 /* GOCSearchInRotatedSortedArrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCSearchInRotatedSortedArrayTests.m; sourceTree = "<group>"; };
+		2596177C2287C88100D6A124 /* GOCFindPeakElementSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCFindPeakElementSolution.h; sourceTree = "<group>"; };
+		2596177D2287C88100D6A124 /* GOCFindPeakElementSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCFindPeakElementSolution.m; sourceTree = "<group>"; };
+		2596177F2287D13900D6A124 /* GOCFindPeakElementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCFindPeakElementTests.m; sourceTree = "<group>"; };
+		259617822287E48300D6A124 /* GOCMedianOfTwoSortedArraysSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCMedianOfTwoSortedArraysSolution.h; sourceTree = "<group>"; };
+		259617832287E48300D6A124 /* GOCMedianOfTwoSortedArraysSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCMedianOfTwoSortedArraysSolution.m; sourceTree = "<group>"; };
+		259617852287EE4000D6A124 /* GOCMedianOfTwoSortedArraysTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCMedianOfTwoSortedArraysTests.m; sourceTree = "<group>"; };
+		259617892287F11C00D6A124 /* GOCSearchA2DMatrixSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCSearchA2DMatrixSolution.h; sourceTree = "<group>"; };
+		2596178A2287F11C00D6A124 /* GOCSearchA2DMatrixSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCSearchA2DMatrixSolution.m; sourceTree = "<group>"; };
+		2596178C2287F4D100D6A124 /* GOCSearchA2DMatrixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCSearchA2DMatrixTests.m; sourceTree = "<group>"; };
+		2596178F2287FAE800D6A124 /* ListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
+		259617902287FAE800D6A124 /* ListNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListNode.m; sourceTree = "<group>"; };
+		259617932287FEBC00D6A124 /* GOCInsertionSortListSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCInsertionSortListSolution.h; sourceTree = "<group>"; };
+		259617942287FEBC00D6A124 /* GOCInsertionSortListSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCInsertionSortListSolution.m; sourceTree = "<group>"; };
+		25961796228807B900D6A124 /* GOCInsertionSortListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCInsertionSortListTests.m; sourceTree = "<group>"; };
+		2596179922880D4400D6A124 /* GOCDeleteNodeInALinkedListSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCDeleteNodeInALinkedListSolution.h; sourceTree = "<group>"; };
+		2596179A22880D4400D6A124 /* GOCDeleteNodeInALinkedListSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCDeleteNodeInALinkedListSolution.m; sourceTree = "<group>"; };
+		2596179C228810AD00D6A124 /* GOCDeleteNodeInALinkedListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCDeleteNodeInALinkedListTests.m; sourceTree = "<group>"; };
+		2596179F2288147000D6A124 /* GOCReverseLinkedListSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCReverseLinkedListSolution.h; sourceTree = "<group>"; };
+		259617A02288147000D6A124 /* GOCReverseLinkedListSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCReverseLinkedListSolution.m; sourceTree = "<group>"; };
+		259617A2228815BA00D6A124 /* GOCReverseLinkedListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCReverseLinkedListTests.m; sourceTree = "<group>"; };
+		259617A52288173E00D6A124 /* GOCMergeTwoSortedListsSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCMergeTwoSortedListsSolution.h; sourceTree = "<group>"; };
+		259617A62288173E00D6A124 /* GOCMergeTwoSortedListsSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCMergeTwoSortedListsSolution.m; sourceTree = "<group>"; };
+		259617A822881A2900D6A124 /* GOCMergeTwoSortedListsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCMergeTwoSortedListsTests.m; sourceTree = "<group>"; };
+		259617AB22881CC600D6A124 /* GOCMiddleOfTheLinkedListSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCMiddleOfTheLinkedListSolution.h; sourceTree = "<group>"; };
+		259617AC22881CC600D6A124 /* GOCMiddleOfTheLinkedListSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCMiddleOfTheLinkedListSolution.m; sourceTree = "<group>"; };
+		259617AE22881E6F00D6A124 /* GOCMiddleOfTheLinkedListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCMiddleOfTheLinkedListTests.m; sourceTree = "<group>"; };
+		259617B12288243700D6A124 /* GOCPermutationsSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCPermutationsSolution.h; sourceTree = "<group>"; };
+		259617B22288243700D6A124 /* GOCPermutationsSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCPermutationsSolution.m; sourceTree = "<group>"; };
+		259617B422882CE800D6A124 /* GOCPermutationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCPermutationsTests.m; sourceTree = "<group>"; };
+		259617B82288386B00D6A124 /* GOCSubsetsSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCSubsetsSolution.h; sourceTree = "<group>"; };
+		259617B92288386B00D6A124 /* GOCSubsetsSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCSubsetsSolution.m; sourceTree = "<group>"; };
+		259617BB2288470900D6A124 /* GOCSubsetsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCSubsetsTests.m; sourceTree = "<group>"; };
+		259617C2228C441E00D6A124 /* TreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
+		259617C3228C441E00D6A124 /* TreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
+		25DDB99322869A2600A8EB42 /* GGObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DDB99622869A2600A8EB42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25DDB99722869A2600A8EB42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25DDB99922869A2600A8EB42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25DDB99A22869A2600A8EB42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25DDB99C22869A2A00A8EB42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25DDB99F22869A2A00A8EB42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25DDB9A122869A2A00A8EB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25DDB9A222869A2A00A8EB42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25DDB9A422869A2A00A8EB42 /* GGObjectiveC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GGObjectiveC.entitlements; sourceTree = "<group>"; };
+		25DDB9A922869A2B00A8EB42 /* GGObjectiveCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGObjectiveCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DDB9AD22869A2B00A8EB42 /* GGObjectiveCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGObjectiveCTests.m; sourceTree = "<group>"; };
+		25DDB9AF22869A2B00A8EB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25DDB9BB2286A0ED00A8EB42 /* GOCBinarySearchSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCBinarySearchSolution.h; sourceTree = "<group>"; };
+		25DDB9BC2286A0ED00A8EB42 /* GOCBinarySearchSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCBinarySearchSolution.m; sourceTree = "<group>"; };
+		25DDB9BE2286A2A800A8EB42 /* GOCBinarySearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCBinarySearchTests.m; sourceTree = "<group>"; };
+		25DDB9C22286AFCA00A8EB42 /* GOCSearchInsertPositionSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCSearchInsertPositionSolution.h; sourceTree = "<group>"; };
+		25DDB9C32286AFCA00A8EB42 /* GOCSearchInsertPositionSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCSearchInsertPositionSolution.m; sourceTree = "<group>"; };
+		25DDB9C52286B69500A8EB42 /* GOCSearchInsertPositionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCSearchInsertPositionTests.m; sourceTree = "<group>"; };
+		25DDB9C82286D36900A8EB42 /* GOCFirstBadVersionSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOCFirstBadVersionSolution.h; sourceTree = "<group>"; };
+		25DDB9C92286D36900A8EB42 /* GOCFirstBadVersionSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCFirstBadVersionSolution.m; sourceTree = "<group>"; };
+		25DDB9CB2286D67C00A8EB42 /* GOCFirstBadVersionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOCFirstBadVersionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25DDB99022869A2600A8EB42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25DDB9A622869A2B00A8EB42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2528C1BC22AB9CC300685E48 /* DynamicProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				2528C1BD22AB9CED00685E48 /* triangle */,
+				2528C1C322ABDC3B00685E48 /* minimum_path_sum */,
+				2528C1C922ABF3D900685E48 /* unique_paths */,
+				2528C1CF22AC96EA00685E48 /* climbing_stairs */,
+			);
+			path = DynamicProgramming;
+			sourceTree = "<group>";
+		};
+		2528C1BD22AB9CED00685E48 /* triangle */ = {
+			isa = PBXGroup;
+			children = (
+				2528C1BE22AB9D0800685E48 /* GOCTriangleSolution.h */,
+				2528C1BF22AB9D0800685E48 /* GOCTriangleSolution.m */,
+				2528C1C122AB9FD900685E48 /* GOCTriangleTests.m */,
+			);
+			path = triangle;
+			sourceTree = "<group>";
+		};
+		2528C1C322ABDC3B00685E48 /* minimum_path_sum */ = {
+			isa = PBXGroup;
+			children = (
+				2528C1C422ABDC8A00685E48 /* GOCMinimumPathSumSolution.h */,
+				2528C1C522ABDC8A00685E48 /* GOCMinimumPathSumSolution.m */,
+				2528C1C722ABEB6D00685E48 /* GOCMinimumPathSumTests.m */,
+			);
+			path = minimum_path_sum;
+			sourceTree = "<group>";
+		};
+		2528C1C922ABF3D900685E48 /* unique_paths */ = {
+			isa = PBXGroup;
+			children = (
+				2528C1CA22ABF3FC00685E48 /* GOCUniquePathsSolution.h */,
+				2528C1CB22ABF3FC00685E48 /* GOCUniquePathsSolution.m */,
+				2528C1CD22ABF6D900685E48 /* GOCUniquePathsTests.m */,
+			);
+			path = unique_paths;
+			sourceTree = "<group>";
+		};
+		2528C1CF22AC96EA00685E48 /* climbing_stairs */ = {
+			isa = PBXGroup;
+			children = (
+				2528C1D022AC972800685E48 /* GOCClimbingStairsSolution.h */,
+				2528C1D122AC972800685E48 /* GOCClimbingStairsSolution.m */,
+				2528C1D322AC9A4300685E48 /* GOCClimbingStairsTests.m */,
+			);
+			path = climbing_stairs;
+			sourceTree = "<group>";
+		};
+		2532E105229A1C6C004E01BA /* binary_tree_inorder_traversal */ = {
+			isa = PBXGroup;
+			children = (
+				2532E106229A1D10004E01BA /* GOCBinaryTreeInorderTraversalSolution.h */,
+				2532E107229A1D10004E01BA /* GOCBinaryTreeInorderTraversalSolution.m */,
+				2532E109229A23CB004E01BA /* GOCBinaryTreeInorderTraversalTests.m */,
+			);
+			path = binary_tree_inorder_traversal;
+			sourceTree = "<group>";
+		};
+		2532E10B229A377C004E01BA /* binary_tree_preorder_traversal */ = {
+			isa = PBXGroup;
+			children = (
+				2532E10C229A39DC004E01BA /* GOCBinaryTreePreorderTraversalSolution.h */,
+				2532E10D229A39DC004E01BA /* GOCBinaryTreePreorderTraversalSolution.m */,
+				2532E10F229A40D8004E01BA /* GOCBinaryTreePreorderTraversalTests.m */,
+			);
+			path = binary_tree_preorder_traversal;
+			sourceTree = "<group>";
+		};
+		2549945D22A38BAF00C8C5B5 /* binary_tree_postorder_traversal */ = {
+			isa = PBXGroup;
+			children = (
+				2549945E22A38BF600C8C5B5 /* GOCBinaryTreePostorderTraversalSolution.h */,
+				2549945F22A38BF600C8C5B5 /* GOCBinaryTreePostorderTraversalSolution.m */,
+				2549946122A392E900C8C5B5 /* GOCBinaryTreePostorderTraversalTests.m */,
+			);
+			path = binary_tree_postorder_traversal;
+			sourceTree = "<group>";
+		};
+		2549946322A39C3300C8C5B5 /* maximum_depth_of_binary_tree */ = {
+			isa = PBXGroup;
+			children = (
+				2549946422A39CC900C8C5B5 /* GOCMaximumDepthOfBinaryTreeSolution.h */,
+				2549946522A39CC900C8C5B5 /* GOCMaximumDepthOfBinaryTreeSolution.m */,
+				2549946722A3A4C300C8C5B5 /* GOCMaximumDepthOfBinaryTreeTests.m */,
+			);
+			path = maximum_depth_of_binary_tree;
+			sourceTree = "<group>";
+		};
+		2549946922A3FBD000C8C5B5 /* balanced_binary_tree */ = {
+			isa = PBXGroup;
+			children = (
+				2549946A22A3FC0E00C8C5B5 /* GOCBalancedBinaryTreeSolution.h */,
+				2549946B22A3FC0E00C8C5B5 /* GOCBalancedBinaryTreeSolution.m */,
+				2549946D22A40C2D00C8C5B5 /* GOCBalancedBinaryTreeTests.m */,
+			);
+			path = balanced_binary_tree;
+			sourceTree = "<group>";
+		};
+		2549947022A40ED600C8C5B5 /* binary_tree_maximum_path_sum */ = {
+			isa = PBXGroup;
+			children = (
+				2549947122A40F1100C8C5B5 /* GOCBinaryTreeMaximumPathSumSolution.h */,
+				2549947222A40F1100C8C5B5 /* GOCBinaryTreeMaximumPathSumSolution.m */,
+				2549947422A55C9500C8C5B5 /* GOCBinaryTreeMaximumPathSumTests.m */,
+			);
+			path = binary_tree_maximum_path_sum;
+			sourceTree = "<group>";
+		};
+		2549947622A5605900C8C5B5 /* lowest_common_ancestor_of_a_binary_search_tree */ = {
+			isa = PBXGroup;
+			children = (
+				2549947722A560B300C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeSolution.h */,
+				2549947822A560B300C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeSolution.m */,
+				2549947A22A563AB00C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeTests.m */,
+			);
+			path = lowest_common_ancestor_of_a_binary_search_tree;
+			sourceTree = "<group>";
+		};
+		2549947C22A6BB4000C8C5B5 /* lowest_common_ancestor_of_a_binary_tree */ = {
+			isa = PBXGroup;
+			children = (
+				2549947D22A6BBB100C8C5B5 /* GOCLowestCommonAncestorOfABinaryTreeSolution.h */,
+				2549947E22A6BBB100C8C5B5 /* GOCLowestCommonAncestorOfABinaryTreeSolution.m */,
+				2549948022A6C15200C8C5B5 /* GOCLowestCommonAncestorOfABinaryTreeTests.m */,
+			);
+			path = lowest_common_ancestor_of_a_binary_tree;
+			sourceTree = "<group>";
+		};
+		2549948222A7F58200C8C5B5 /* binary_tree_level_order_traversal */ = {
+			isa = PBXGroup;
+			children = (
+				2549948322A7F5C900C8C5B5 /* GOCBinaryTreeLevelOrderTraversalSolution.h */,
+				2549948422A7F5C900C8C5B5 /* GOCBinaryTreeLevelOrderTraversalSolution.m */,
+				2549948622A7FBC200C8C5B5 /* GOCBinaryTreeLevelOrderTraversalTests.m */,
+			);
+			path = binary_tree_level_order_traversal;
+			sourceTree = "<group>";
+		};
+		2549948C22A800B500C8C5B5 /* validate_binary_search_tree */ = {
+			isa = PBXGroup;
+			children = (
+				2549948D22A800DD00C8C5B5 /* GOCValidateBinarySearchTreeSolution.h */,
+				2549948E22A800DD00C8C5B5 /* GOCValidateBinarySearchTreeSolution.m */,
+				2549949222A8038400C8C5B5 /* GOCValidateBinarySearchTreeTests.m */,
+			);
+			path = validate_binary_search_tree;
+			sourceTree = "<group>";
+		};
+		2549949422A8050500C8C5B5 /* insert_into_a_binary_search_tree */ = {
+			isa = PBXGroup;
+			children = (
+				2549949522A8053C00C8C5B5 /* GOCInsertIntoABinarySearchTreeSolution.h */,
+				2549949622A8053C00C8C5B5 /* GOCInsertIntoABinarySearchTreeSolution.m */,
+				2549949A22A8076100C8C5B5 /* GOCInsertIntoABinarySearchTreeTests.m */,
+			);
+			path = insert_into_a_binary_search_tree;
+			sourceTree = "<group>";
+		};
+		2549949F22A80C1800C8C5B5 /* delete_node_in_a_bst */ = {
+			isa = PBXGroup;
+			children = (
+				2549949C22A80C0F00C8C5B5 /* GOCDeleteNodeInABSTSolution.h */,
+				2549949D22A80C0F00C8C5B5 /* GOCDeleteNodeInABSTSolution.m */,
+				254994A022A80FEE00C8C5B5 /* GOCDeleteNodeInABSTTests.m */,
+			);
+			path = delete_node_in_a_bst;
+			sourceTree = "<group>";
+		};
+		2596176F2287B3D700D6A124 /* find_minimum_in_rotated_sorted_array */ = {
+			isa = PBXGroup;
+			children = (
+				259617702287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.h */,
+				259617712287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.m */,
+				259617732287B7C800D6A124 /* GOCFindMinimumInRotatedSortedArrayTests.m */,
+			);
+			path = find_minimum_in_rotated_sorted_array;
+			sourceTree = "<group>";
+		};
+		259617752287BBEC00D6A124 /* search_in_rotated_sorted_array */ = {
+			isa = PBXGroup;
+			children = (
+				259617762287BC4100D6A124 /* GOCSearchInRotatedSortedArraySolution.h */,
+				259617772287BC4100D6A124 /* GOCSearchInRotatedSortedArraySolution.m */,
+				259617792287C1D500D6A124 /* GOCSearchInRotatedSortedArrayTests.m */,
+			);
+			path = search_in_rotated_sorted_array;
+			sourceTree = "<group>";
+		};
+		2596177B2287C65C00D6A124 /* find_peak_element */ = {
+			isa = PBXGroup;
+			children = (
+				2596177C2287C88100D6A124 /* GOCFindPeakElementSolution.h */,
+				2596177D2287C88100D6A124 /* GOCFindPeakElementSolution.m */,
+				2596177F2287D13900D6A124 /* GOCFindPeakElementTests.m */,
+			);
+			path = find_peak_element;
+			sourceTree = "<group>";
+		};
+		259617812287E35B00D6A124 /* median_of_two_sorted_arrays */ = {
+			isa = PBXGroup;
+			children = (
+				259617822287E48300D6A124 /* GOCMedianOfTwoSortedArraysSolution.h */,
+				259617832287E48300D6A124 /* GOCMedianOfTwoSortedArraysSolution.m */,
+				259617852287EE4000D6A124 /* GOCMedianOfTwoSortedArraysTests.m */,
+			);
+			path = median_of_two_sorted_arrays;
+			sourceTree = "<group>";
+		};
+		259617872287F0CB00D6A124 /* search_a_2d_matrix */ = {
+			isa = PBXGroup;
+			children = (
+				259617892287F11C00D6A124 /* GOCSearchA2DMatrixSolution.h */,
+				2596178A2287F11C00D6A124 /* GOCSearchA2DMatrixSolution.m */,
+				2596178C2287F4D100D6A124 /* GOCSearchA2DMatrixTests.m */,
+			);
+			path = search_a_2d_matrix;
+			sourceTree = "<group>";
+		};
+		2596178E2287F89F00D6A124 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				2596178F2287FAE800D6A124 /* ListNode.h */,
+				259617902287FAE800D6A124 /* ListNode.m */,
+				259617922287FE3800D6A124 /* insertion_sort_list */,
+				2596179822880CE800D6A124 /* delete_node_in_a_linked_list */,
+				2596179E2288141600D6A124 /* reverse_linked_list */,
+				259617A4228816FF00D6A124 /* merge_two_sorted_lists */,
+				259617AA22881C8F00D6A124 /* middle_of_the_linked_list */,
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		259617922287FE3800D6A124 /* insertion_sort_list */ = {
+			isa = PBXGroup;
+			children = (
+				259617932287FEBC00D6A124 /* GOCInsertionSortListSolution.h */,
+				259617942287FEBC00D6A124 /* GOCInsertionSortListSolution.m */,
+				25961796228807B900D6A124 /* GOCInsertionSortListTests.m */,
+			);
+			path = insertion_sort_list;
+			sourceTree = "<group>";
+		};
+		2596179822880CE800D6A124 /* delete_node_in_a_linked_list */ = {
+			isa = PBXGroup;
+			children = (
+				2596179922880D4400D6A124 /* GOCDeleteNodeInALinkedListSolution.h */,
+				2596179A22880D4400D6A124 /* GOCDeleteNodeInALinkedListSolution.m */,
+				2596179C228810AD00D6A124 /* GOCDeleteNodeInALinkedListTests.m */,
+			);
+			path = delete_node_in_a_linked_list;
+			sourceTree = "<group>";
+		};
+		2596179E2288141600D6A124 /* reverse_linked_list */ = {
+			isa = PBXGroup;
+			children = (
+				2596179F2288147000D6A124 /* GOCReverseLinkedListSolution.h */,
+				259617A02288147000D6A124 /* GOCReverseLinkedListSolution.m */,
+				259617A2228815BA00D6A124 /* GOCReverseLinkedListTests.m */,
+			);
+			path = reverse_linked_list;
+			sourceTree = "<group>";
+		};
+		259617A4228816FF00D6A124 /* merge_two_sorted_lists */ = {
+			isa = PBXGroup;
+			children = (
+				259617A52288173E00D6A124 /* GOCMergeTwoSortedListsSolution.h */,
+				259617A62288173E00D6A124 /* GOCMergeTwoSortedListsSolution.m */,
+				259617A822881A2900D6A124 /* GOCMergeTwoSortedListsTests.m */,
+			);
+			path = merge_two_sorted_lists;
+			sourceTree = "<group>";
+		};
+		259617AA22881C8F00D6A124 /* middle_of_the_linked_list */ = {
+			isa = PBXGroup;
+			children = (
+				259617AB22881CC600D6A124 /* GOCMiddleOfTheLinkedListSolution.h */,
+				259617AC22881CC600D6A124 /* GOCMiddleOfTheLinkedListSolution.m */,
+				259617AE22881E6F00D6A124 /* GOCMiddleOfTheLinkedListTests.m */,
+			);
+			path = middle_of_the_linked_list;
+			sourceTree = "<group>";
+		};
+		259617B02288235900D6A124 /* PermutationAndCombination */ = {
+			isa = PBXGroup;
+			children = (
+				259617B622882F0500D6A124 /* permutations */,
+				259617B7228837EB00D6A124 /* subsets */,
+			);
+			path = PermutationAndCombination;
+			sourceTree = "<group>";
+		};
+		259617B622882F0500D6A124 /* permutations */ = {
+			isa = PBXGroup;
+			children = (
+				259617B12288243700D6A124 /* GOCPermutationsSolution.h */,
+				259617B22288243700D6A124 /* GOCPermutationsSolution.m */,
+				259617B422882CE800D6A124 /* GOCPermutationsTests.m */,
+			);
+			path = permutations;
+			sourceTree = "<group>";
+		};
+		259617B7228837EB00D6A124 /* subsets */ = {
+			isa = PBXGroup;
+			children = (
+				259617B82288386B00D6A124 /* GOCSubsetsSolution.h */,
+				259617B92288386B00D6A124 /* GOCSubsetsSolution.m */,
+				259617BB2288470900D6A124 /* GOCSubsetsTests.m */,
+			);
+			path = subsets;
+			sourceTree = "<group>";
+		};
+		259617C122884D7200D6A124 /* BinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				259617C2228C441E00D6A124 /* TreeNode.h */,
+				259617C3228C441E00D6A124 /* TreeNode.m */,
+				252D36DF22997C0900022FD1 /* TreeNodeTests.m */,
+				2532E105229A1C6C004E01BA /* binary_tree_inorder_traversal */,
+				2532E10B229A377C004E01BA /* binary_tree_preorder_traversal */,
+				2549945D22A38BAF00C8C5B5 /* binary_tree_postorder_traversal */,
+				2549946322A39C3300C8C5B5 /* maximum_depth_of_binary_tree */,
+				2549946922A3FBD000C8C5B5 /* balanced_binary_tree */,
+				2549947022A40ED600C8C5B5 /* binary_tree_maximum_path_sum */,
+				2549947622A5605900C8C5B5 /* lowest_common_ancestor_of_a_binary_search_tree */,
+				2549947C22A6BB4000C8C5B5 /* lowest_common_ancestor_of_a_binary_tree */,
+				2549948222A7F58200C8C5B5 /* binary_tree_level_order_traversal */,
+				2549948C22A800B500C8C5B5 /* validate_binary_search_tree */,
+				2549949422A8050500C8C5B5 /* insert_into_a_binary_search_tree */,
+				2549949F22A80C1800C8C5B5 /* delete_node_in_a_bst */,
+			);
+			path = BinaryTree;
+			sourceTree = "<group>";
+		};
+		25DDB98A22869A2500A8EB42 = {
+			isa = PBXGroup;
+			children = (
+				25DDB99522869A2600A8EB42 /* GGObjectiveC */,
+				25DDB9AC22869A2B00A8EB42 /* GGObjectiveCTests */,
+				25DDB99422869A2600A8EB42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25DDB99422869A2600A8EB42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25DDB99322869A2600A8EB42 /* GGObjectiveC.app */,
+				25DDB9A922869A2B00A8EB42 /* GGObjectiveCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25DDB99522869A2600A8EB42 /* GGObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				25DDB99622869A2600A8EB42 /* AppDelegate.h */,
+				25DDB99722869A2600A8EB42 /* AppDelegate.m */,
+				25DDB99922869A2600A8EB42 /* ViewController.h */,
+				25DDB99A22869A2600A8EB42 /* ViewController.m */,
+				25DDB99C22869A2A00A8EB42 /* Assets.xcassets */,
+				25DDB99E22869A2A00A8EB42 /* Main.storyboard */,
+				25DDB9A122869A2A00A8EB42 /* Info.plist */,
+				25DDB9A222869A2A00A8EB42 /* main.m */,
+				25DDB9A422869A2A00A8EB42 /* GGObjectiveC.entitlements */,
+			);
+			path = GGObjectiveC;
+			sourceTree = "<group>";
+		};
+		25DDB9AC22869A2B00A8EB42 /* GGObjectiveCTests */ = {
+			isa = PBXGroup;
+			children = (
+				25DDB9B822869FD100A8EB42 /* Problems */,
+				25DDB9AD22869A2B00A8EB42 /* GGObjectiveCTests.m */,
+				25DDB9AF22869A2B00A8EB42 /* Info.plist */,
+			);
+			path = GGObjectiveCTests;
+			sourceTree = "<group>";
+		};
+		25DDB9B822869FD100A8EB42 /* Problems */ = {
+			isa = PBXGroup;
+			children = (
+				25DDB9B92286A00200A8EB42 /* BinarySearch */,
+				2596178E2287F89F00D6A124 /* LinkedList */,
+				259617B02288235900D6A124 /* PermutationAndCombination */,
+				259617C122884D7200D6A124 /* BinaryTree */,
+				2528C1BC22AB9CC300685E48 /* DynamicProgramming */,
+			);
+			path = Problems;
+			sourceTree = "<group>";
+		};
+		25DDB9B92286A00200A8EB42 /* BinarySearch */ = {
+			isa = PBXGroup;
+			children = (
+				25DDB9BA2286A09200A8EB42 /* binary_search */,
+				25DDB9C12286AF0400A8EB42 /* search_insert_position */,
+				25DDB9C72286D32A00A8EB42 /* first_bad_version */,
+				2596176F2287B3D700D6A124 /* find_minimum_in_rotated_sorted_array */,
+				259617752287BBEC00D6A124 /* search_in_rotated_sorted_array */,
+				2596177B2287C65C00D6A124 /* find_peak_element */,
+				259617812287E35B00D6A124 /* median_of_two_sorted_arrays */,
+				259617872287F0CB00D6A124 /* search_a_2d_matrix */,
+			);
+			path = BinarySearch;
+			sourceTree = "<group>";
+		};
+		25DDB9BA2286A09200A8EB42 /* binary_search */ = {
+			isa = PBXGroup;
+			children = (
+				25DDB9BB2286A0ED00A8EB42 /* GOCBinarySearchSolution.h */,
+				25DDB9BC2286A0ED00A8EB42 /* GOCBinarySearchSolution.m */,
+				25DDB9BE2286A2A800A8EB42 /* GOCBinarySearchTests.m */,
+			);
+			path = binary_search;
+			sourceTree = "<group>";
+		};
+		25DDB9C12286AF0400A8EB42 /* search_insert_position */ = {
+			isa = PBXGroup;
+			children = (
+				25DDB9C22286AFCA00A8EB42 /* GOCSearchInsertPositionSolution.h */,
+				25DDB9C32286AFCA00A8EB42 /* GOCSearchInsertPositionSolution.m */,
+				25DDB9C52286B69500A8EB42 /* GOCSearchInsertPositionTests.m */,
+			);
+			path = search_insert_position;
+			sourceTree = "<group>";
+		};
+		25DDB9C72286D32A00A8EB42 /* first_bad_version */ = {
+			isa = PBXGroup;
+			children = (
+				25DDB9C82286D36900A8EB42 /* GOCFirstBadVersionSolution.h */,
+				25DDB9C92286D36900A8EB42 /* GOCFirstBadVersionSolution.m */,
+				25DDB9CB2286D67C00A8EB42 /* GOCFirstBadVersionTests.m */,
+			);
+			path = first_bad_version;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25DDB99222869A2600A8EB42 /* GGObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25DDB9B222869A2B00A8EB42 /* Build configuration list for PBXNativeTarget "GGObjectiveC" */;
+			buildPhases = (
+				25DDB98F22869A2600A8EB42 /* Sources */,
+				25DDB99022869A2600A8EB42 /* Frameworks */,
+				25DDB99122869A2600A8EB42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GGObjectiveC;
+			productName = GGObjectiveC;
+			productReference = 25DDB99322869A2600A8EB42 /* GGObjectiveC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25DDB9A822869A2B00A8EB42 /* GGObjectiveCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25DDB9B522869A2B00A8EB42 /* Build configuration list for PBXNativeTarget "GGObjectiveCTests" */;
+			buildPhases = (
+				25DDB9A522869A2B00A8EB42 /* Sources */,
+				25DDB9A622869A2B00A8EB42 /* Frameworks */,
+				25DDB9A722869A2B00A8EB42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25DDB9AB22869A2B00A8EB42 /* PBXTargetDependency */,
+			);
+			name = GGObjectiveCTests;
+			productName = GGObjectiveCTests;
+			productReference = 25DDB9A922869A2B00A8EB42 /* GGObjectiveCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25DDB98B22869A2500A8EB42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Stone Zhang";
+				TargetAttributes = {
+					25DDB99222869A2600A8EB42 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					25DDB9A822869A2B00A8EB42 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 25DDB98E22869A2500A8EB42 /* Build configuration list for PBXProject "GGObjectiveC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25DDB98A22869A2500A8EB42;
+			productRefGroup = 25DDB99422869A2600A8EB42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25DDB99222869A2600A8EB42 /* GGObjectiveC */,
+				25DDB9A822869A2B00A8EB42 /* GGObjectiveCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25DDB99122869A2600A8EB42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DDB99D22869A2A00A8EB42 /* Assets.xcassets in Resources */,
+				25DDB9A022869A2A00A8EB42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25DDB9A722869A2B00A8EB42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25DDB98F22869A2600A8EB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DDB99B22869A2600A8EB42 /* ViewController.m in Sources */,
+				25DDB9A322869A2A00A8EB42 /* main.m in Sources */,
+				25DDB99822869A2600A8EB42 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25DDB9A522869A2B00A8EB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2549946222A392E900C8C5B5 /* GOCBinaryTreePostorderTraversalTests.m in Sources */,
+				259617A72288173E00D6A124 /* GOCMergeTwoSortedListsSolution.m in Sources */,
+				2549946822A3A4C300C8C5B5 /* GOCMaximumDepthOfBinaryTreeTests.m in Sources */,
+				259617BC2288470900D6A124 /* GOCSubsetsTests.m in Sources */,
+				2549946C22A3FC0E00C8C5B5 /* GOCBalancedBinaryTreeSolution.m in Sources */,
+				259617782287BC4100D6A124 /* GOCSearchInRotatedSortedArraySolution.m in Sources */,
+				259617A3228815BA00D6A124 /* GOCReverseLinkedListTests.m in Sources */,
+				2528C1C822ABEB6D00685E48 /* GOCMinimumPathSumTests.m in Sources */,
+				2528C1C222AB9FD900685E48 /* GOCTriangleTests.m in Sources */,
+				2528C1C022AB9D0800685E48 /* GOCTriangleSolution.m in Sources */,
+				2549949722A8053C00C8C5B5 /* GOCInsertIntoABinarySearchTreeSolution.m in Sources */,
+				2549946022A38BF600C8C5B5 /* GOCBinaryTreePostorderTraversalSolution.m in Sources */,
+				2528C1D422AC9A4300685E48 /* GOCClimbingStairsTests.m in Sources */,
+				2532E110229A40D8004E01BA /* GOCBinaryTreePreorderTraversalTests.m in Sources */,
+				25DDB9BF2286A2A800A8EB42 /* GOCBinarySearchTests.m in Sources */,
+				259617C4228C441E00D6A124 /* TreeNode.m in Sources */,
+				25DDB9C42286AFCA00A8EB42 /* GOCSearchInsertPositionSolution.m in Sources */,
+				252D36E022997C0900022FD1 /* TreeNodeTests.m in Sources */,
+				2549949E22A80C0F00C8C5B5 /* GOCDeleteNodeInABSTSolution.m in Sources */,
+				25DDB9CA2286D36900A8EB42 /* GOCFirstBadVersionSolution.m in Sources */,
+				2528C1CE22ABF6D900685E48 /* GOCUniquePathsTests.m in Sources */,
+				2549947322A40F1100C8C5B5 /* GOCBinaryTreeMaximumPathSumSolution.m in Sources */,
+				259617B522882CE800D6A124 /* GOCPermutationsTests.m in Sources */,
+				2596179D228810AD00D6A124 /* GOCDeleteNodeInALinkedListTests.m in Sources */,
+				259617742287B7C800D6A124 /* GOCFindMinimumInRotatedSortedArrayTests.m in Sources */,
+				2528C1D222AC972800685E48 /* GOCClimbingStairsSolution.m in Sources */,
+				25961797228807B900D6A124 /* GOCInsertionSortListTests.m in Sources */,
+				259617B32288243700D6A124 /* GOCPermutationsSolution.m in Sources */,
+				2596177E2287C88100D6A124 /* GOCFindPeakElementSolution.m in Sources */,
+				2528C1CC22ABF3FC00685E48 /* GOCUniquePathsSolution.m in Sources */,
+				2549948522A7F5C900C8C5B5 /* GOCBinaryTreeLevelOrderTraversalSolution.m in Sources */,
+				259617AF22881E6F00D6A124 /* GOCMiddleOfTheLinkedListTests.m in Sources */,
+				2596179B22880D4400D6A124 /* GOCDeleteNodeInALinkedListSolution.m in Sources */,
+				259617952287FEBC00D6A124 /* GOCInsertionSortListSolution.m in Sources */,
+				259617A12288147000D6A124 /* GOCReverseLinkedListSolution.m in Sources */,
+				25DDB9AE22869A2B00A8EB42 /* GGObjectiveCTests.m in Sources */,
+				2549947922A560B300C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeSolution.m in Sources */,
+				25DDB9CC2286D67C00A8EB42 /* GOCFirstBadVersionTests.m in Sources */,
+				2596177A2287C1D500D6A124 /* GOCSearchInRotatedSortedArrayTests.m in Sources */,
+				2549949B22A8076100C8C5B5 /* GOCInsertIntoABinarySearchTreeTests.m in Sources */,
+				254994A122A80FEE00C8C5B5 /* GOCDeleteNodeInABSTTests.m in Sources */,
+				259617BA2288386B00D6A124 /* GOCSubsetsSolution.m in Sources */,
+				2549948722A7FBC200C8C5B5 /* GOCBinaryTreeLevelOrderTraversalTests.m in Sources */,
+				2549948F22A800DD00C8C5B5 /* GOCValidateBinarySearchTreeSolution.m in Sources */,
+				2532E10A229A23CB004E01BA /* GOCBinaryTreeInorderTraversalTests.m in Sources */,
+				2549947B22A563AB00C8C5B5 /* GOCLowestCommonAncestorOfABinarySearchTreeTests.m in Sources */,
+				259617A922881A2900D6A124 /* GOCMergeTwoSortedListsTests.m in Sources */,
+				259617862287EE4000D6A124 /* GOCMedianOfTwoSortedArraysTests.m in Sources */,
+				259617802287D13900D6A124 /* GOCFindPeakElementTests.m in Sources */,
+				25DDB9C62286B69500A8EB42 /* GOCSearchInsertPositionTests.m in Sources */,
+				2549947522A55C9500C8C5B5 /* GOCBinaryTreeMaximumPathSumTests.m in Sources */,
+				2549948122A6C15200C8C5B5 /* GOCLowestCommonAncestorOfABinaryTreeTests.m in Sources */,
+				2549946622A39CC900C8C5B5 /* GOCMaximumDepthOfBinaryTreeSolution.m in Sources */,
+				2549949322A8038400C8C5B5 /* GOCValidateBinarySearchTreeTests.m in Sources */,
+				2549946E22A40C2D00C8C5B5 /* GOCBalancedBinaryTreeTests.m in Sources */,
+				2532E10E229A39DC004E01BA /* GOCBinaryTreePreorderTraversalSolution.m in Sources */,
+				259617842287E48300D6A124 /* GOCMedianOfTwoSortedArraysSolution.m in Sources */,
+				259617912287FAE800D6A124 /* ListNode.m in Sources */,
+				25DDB9BD2286A0ED00A8EB42 /* GOCBinarySearchSolution.m in Sources */,
+				2532E108229A1D10004E01BA /* GOCBinaryTreeInorderTraversalSolution.m in Sources */,
+				2596178D2287F4D100D6A124 /* GOCSearchA2DMatrixTests.m in Sources */,
+				259617722287B44D00D6A124 /* GOCFindMinimumInRotatedSortedArraySolution.m in Sources */,
+				259617AD22881CC600D6A124 /* GOCMiddleOfTheLinkedListSolution.m in Sources */,
+				2528C1C622ABDC8A00685E48 /* GOCMinimumPathSumSolution.m in Sources */,
+				2596178B2287F11C00D6A124 /* GOCSearchA2DMatrixSolution.m in Sources */,
+				2549947F22A6BBB100C8C5B5 /* GOCLowestCommonAncestorOfABinaryTreeSolution.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25DDB9AB22869A2B00A8EB42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25DDB99222869A2600A8EB42 /* GGObjectiveC */;
+			targetProxy = 25DDB9AA22869A2B00A8EB42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25DDB99E22869A2A00A8EB42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25DDB99F22869A2A00A8EB42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25DDB9B022869A2B00A8EB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		25DDB9B122869A2B00A8EB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		25DDB9B322869A2B00A8EB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GGObjectiveC/GGObjectiveC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CCBW5GSHKT;
+				INFOPLIST_FILE = GGObjectiveC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stonezhl.GGObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25DDB9B422869A2B00A8EB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GGObjectiveC/GGObjectiveC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CCBW5GSHKT;
+				INFOPLIST_FILE = GGObjectiveC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stonezhl.GGObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25DDB9B622869A2B00A8EB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CCBW5GSHKT;
+				INFOPLIST_FILE = GGObjectiveCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stonezhl.GGObjectiveCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25DDB9B722869A2B00A8EB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CCBW5GSHKT;
+				INFOPLIST_FILE = GGObjectiveCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stonezhl.GGObjectiveCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25DDB98E22869A2500A8EB42 /* Build configuration list for PBXProject "GGObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DDB9B022869A2B00A8EB42 /* Debug */,
+				25DDB9B122869A2B00A8EB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25DDB9B222869A2B00A8EB42 /* Build configuration list for PBXNativeTarget "GGObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DDB9B322869A2B00A8EB42 /* Debug */,
+				25DDB9B422869A2B00A8EB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25DDB9B522869A2B00A8EB42 /* Build configuration list for PBXNativeTarget "GGObjectiveCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DDB9B622869A2B00A8EB42 /* Debug */,
+				25DDB9B722869A2B00A8EB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25DDB98B22869A2500A8EB42 /* Project object */;
+}
