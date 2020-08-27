@@ -40,12 +40,12 @@
 
 - (GOCBinaryTreeMaximumPathSumResult *)resultFromNode:(TreeNode *)node {
     if (node == nil) {
-        return [GOCBinaryTreeMaximumPathSumResult resultWithMax:NSIntegerMin sum:0];
+        return [GOCBinaryTreeMaximumPathSumResult resultWithMax:NSIntegerMin sum:NSIntegerMin];
     }
     GOCBinaryTreeMaximumPathSumResult *leftResult = [self resultFromNode:node.left];
     GOCBinaryTreeMaximumPathSumResult *rightResult = [self resultFromNode:node.right];
-    NSInteger max = MAX(leftResult.sum + rightResult.sum + node.val,  MAX(leftResult.max, rightResult.max));
-    NSInteger sum = MAX(0, node.val + MAX(leftResult.sum, rightResult.sum));
+    NSInteger max = MAX(leftResult.sum + rightResult.sum + node.val,  MAX(MAX(leftResult.max, leftResult.sum), MAX(rightResult.max, rightResult.sum)));
+    NSInteger sum = node.val + MAX(0, MAX(leftResult.sum, rightResult.sum));
     return [GOCBinaryTreeMaximumPathSumResult resultWithMax:max sum:sum];
 }
 
